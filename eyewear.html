@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+      />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&family=Poppins:wght@900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />  
+      <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&family=Poppins:wght@900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
+  <link rel="stylesheet" href="eye.css">
+  <link rel="stylesheet" href="eyewear.css">
+</head>
+<body>
+    
+
+<script>
+   const observer= new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+console.log(entry)
+if(entry.isIntersecting){
+    entry.target.classList.add('ett');
+}
+else{
+    entry.target.classList.remove('ett');
+}
+
+    });
+    });
+    const ettElements = document.querySelectorAll('.to'); 
+   ettElements.forEach((el)=>observer.observe(el));
+
+
+   const oobserver= new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+console.log(entry)
+if(entry.isIntersecting){
+    entry.target.classList.add('ppt');
+}
+else{
+    entry.target.classList.remove('ppt');
+}
+
+    });
+    });
+    const ttElements = document.querySelectorAll('.tt'); 
+   ttElements.forEach((el)=>oobserver.observe(el));
+</script>
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="main">
+            <div class="bar sticky-top">
+                <div class="img"><a  href="homepage.html"><img class="feriri"  src="img/Prancing_horsee.svg.png" alt=""></a></div>
+                <div class="racingg"><a class="racing" href="racing.html">RACING</a></div>
+                <div class="sportscar"><a class="racing" href="sportscars.html"> SPORTS CARS</a></div>
+                <div class="collections"><a class="racing" href="eyewear.html">COLLECTIONS</a></div>
+                <div class="experence"><a href="lightshow.html" class="racing">EXPERIENCE</a></div>
+                <div class="aboutus"><a href="aboutus.html" class="racing">ABOUT US</a></div>
+                
+              </div>
+
+<div class="maintwo">
+    
+</div>
+
+<div class="to"><h6 class="ett">Eyewear</h6></div>
+<div class="tt"><p class="ppt">Wear the authentic spirit of the legendary Maranello Team with these men’s Ray-Ban Scuderia Ferrari sunglasses.</p></div>
+<div class="rowone">
+    <div class="divone">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/oneone.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/onetwo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/onethree.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  
+    <div class="divtwo">
+        <div id="carouselExampleFadee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/twoone.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/twotwo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/twothree.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+    
+    <div class="divthree">
+        <div id="carouselExampleFadeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/threeone.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/threetwo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/threethree.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="divfour">
+        <div id="carouselExampleFadeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/fourone.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/fourtwo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/fourthree.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+  </div>
+  <div class="rowtwo">
+    <div class="rt"><h5 class="ton a"><a href="eyeone.html" class="racing sea" id="seaa">Gray/dark carbon Ray-Ban for Scuderia Ferrari RB8362MF sunglasses with dark green lenses</a>
+    </h5></div>
+    <div class="rt"><h5 class="ton aa"><a href="eyetwo.html" class="racing sea"id="seaa">Pale blue Ray-Ban for Scuderia Ferrari RB4414MF sunglasses with blue lenses
+        </a></h5></div>
+    <div class="rt"><h5 class="ton aaa"><a href="eyethree.html" class="racing sea"id="seaa">Gray Ray-Ban for Scuderia <br> Ferrari RB4414MF sunglasses with purple silver mirrored polarized lenses
+    </a></h5></div>
+    <div class="rt"><h5 class="ton aaaa"><a href="eyefour.html" class="racing sea"id="seaa">Gray and silver Ray-Ban for Scuderia Ferrari RB3726MF sunglasses with ombré gray lenses</a>
+        </h5></div>
+  </div>
+
+
+  <div class="rowthree">
+    <div class="rtt"><h5 class="price p">$ 330</h5></div>
+    <div class="rtt"><h5 class="price pp">$ 230</h5></div>
+    <div class="rtt"><h5 class="price ppp">$ 300</h5></div>
+    <div class="rtt"><h5 class="price pppp">$ 290</h5></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="rowfour">
+    <div class="divfive">
+        <div id="carouselExampleFadeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/fiveone.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/fivetwo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/fivethree.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  
+    <div class="divsix">
+        <div id="carouselExampleFadeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (2).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+    
+    <div class="divseven">
+        <div id="carouselExampleFadeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (3).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (4).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (5).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="diveight">
+        <div id="carouselExampleFadeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (6).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (7).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (8).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+  </div>
+  <div class="rowtwo">
+    <div class="rt"><h5 class="ton aaaaa"><a href="eyefive.html" class="racing sea"id="seaa">Blue Ray-Ban for Scuderia <br>
+         Ferrari RB4413MF sunglasses <br>
+          with blue mirrored gold <br>
+           polarized lenses</a>
+
+    </h5></div>
+    <div class="rt"><h5 class="ton aaaaaa"><a href="eyesix.html" class="racing sea"id="seaa">Dark red Ray-Ban for Scuderia Ferrari RB4413MF sunglasses with dark gray lenses
+       </a> </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaa"><a href="eyeseven.html" class="racing sea"id="seaa">Clear gray Ray-Ban for Scuderia Ferrari RB4413MF sunglasses with ombré lenses</a>
+    </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaa"><a href="eyeeight.html" class="racing sea"id="seaa">Black Ray-Ban for Scuderia Ferrari RB3726MF sunglasses with ombré mirrored gray polarized lenses</a>
+        </h5></div>
+  </div>
+
+
+  <div class="rowthree">
+    <div class="rtt"><h5 class="price ppppp">$ 300</h5></div>
+    <div class="rtt"><h5 class="price pppppp">$ 230</h5></div>
+    <div class="rtt"><h5 class="price ppppppp">$ 240</h5></div>
+    <div class="rtt"><h5 class="price pppppppp">$ 360</h5></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="rowfive">
+    <div class="divfive">
+        <div id="carouselExampleFadeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (9).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (10).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (11).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  
+    <div class="divsix">
+        <div id="carouselExampleFadeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (12).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (13).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (14).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+    
+    <div class="divseven">
+        <div id="carouselExampleFadeeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (15).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (16).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (17).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="diveight">
+        <div id="carouselExampleFadeeeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (18).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (19).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (20).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+  </div>
+  <div class="rowtwo">
+    <div class="rt"><h5 class="ton aaaaaaaaa"><a href="eyenine.html" class="racing sea"id="seaa">Silver Ray-Ban for Scuderia Ferrari RB3726MF sunglasses with polarized blue mirrored green lenses</a>
+
+    </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaaaa"><a href="eyeten.html" class="racing sea"id="seaa">Dark red Ray-Ban for Scuderia Ferrari RB4414MF with ombré gray lenses</a>
+        </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaaaaa"><a href="eyeelevem.html" class="racing sea"id="seaa">Black Ray-Ban for Scuderia Ferrari RB4414MF sunglasses with dark green lenses</a>
+    </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaaaaaa"><a href="eyetwelve.html" class="racing sea"id="seaa">White Ray-Ban for Scuderia Ferrari RB4413MF sunglasses with pale blue ombré lenses</a>
+        </h5></div>
+  </div>
+
+
+  <div class="rowthree">
+    <div class="rtt"><h5 class="price ppppppppp">$ 360</h5></div>
+    <div class="rtt"><h5 class="price pppppppppp">$ 240</h5></div>
+    <div class="rtt"><h5 class="price ppppppppppp">$ 230</h5></div>
+    <div class="rtt"><h5 class="price pppppppppppp">$ 240</h5></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="rowfive">
+    <div class="divfive">
+        <div id="carouselExampleFadeeeeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (21).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (22).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (23).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  
+    <div class="divsix">
+        <div id="carouselExampleFadeeeeeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (24).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (25).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (26).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+    
+    <div class="divseven">
+        <div id="carouselExampleFadeeeeeeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (27).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (28).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (29).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="diveight">
+        <div id="carouselExampleFadeeeeeeeeeeeeeeee" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="collectionimgs/w3840 (30).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (31).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="collectionimgs/w3840 (32).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeeeeee" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeeeeeeeeeeeeeeee" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+  </div>
+  <div class="rowtwo">
+    <div class="rt"><h5 class="ton aaaaaaaaaaaaa"><a href="eyethirteen.html" class="racing sea"id="seaa">Black/light carbon Ray-Ban for Scuderia Ferrari RB8362MF sunglasses with ombré gray polarized mirrored lenses</a>
+
+
+    </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaaaaaaaa"><a href="eyefourteen.html" class="racing sea"id="seaa">Black Ray-Ban for Scuderia Ferrari RB4413MF sunglasses with dark green lenses</a>
+        </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaaaaaaaaa"><a href="eyefifteen.html" class="racing sea"id="seaa">Blue and gunmetal Ray-Ban for Scuderia Ferrari RB3726MF sunglasses with dark gray lenses</a>
+    </h5></div>
+    <div class="rt"><h5 class="ton aaaaaaaaaaaaaaaa"><a href="eyesixteen.html" class="racing sea"id="seaa">Red/dark carbon Ray-Ban for Scuderia Ferrari RB8362MF sunglasses with dark green lenses</a>
+        </h5></div>
+  </div>
+
+
+  <div class="rowthree">
+    <div class="rtt"><h5 class="price ppppppppppppp">$ 410</h5></div>
+    <div class="rtt"><h5 class="price pppppppppppppp">$ 210</h5></div>
+    <div class="rtt"><h5 class="price ppppppppppppppp">$ 280</h5></div>
+    <div class="rtt"><h5 class="price pppppppppppppppp">$ 330</h5></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="mainninee"><img src="img/partenership.jpg" alt="" class="mainnineee"></div>
+
+
+
+  <div class="mainnine">
+      <div class="footer-dark">
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>Racing</h3>
+                          <ul>
+                              <li><a href="racing.html">Scuderia Ferrari</a></li>
+                              <li><a href="charls.html">Charles Leclerc</a></li>
+                              <li><a href="charls.html">Carlos Sainz</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-3 item">
+                          <h3>About</h3>
+                          <ul>
+                              <li><a href="homepage.html">Company</a></li>
+                              <li><a href="garrage.html">Magazine</a></li>
+                              <li><a href="#">Join us</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-6 item text">
+                          <h3>Ferrari</h3>
+                          <p>The company currently offers a large model range which includes several supercars, grand tourers, and one SUV. Many early Ferraris, dating to the 1950s and 1960s, count among the most expensive cars ever sold at auction.</p>
+                      </div>
+                      <div class="col item social"><a href="https://www.facebook.com/Ferrari/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/ScuderiaFerrari?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/explore/ferrari"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/ferrari/"><i class="icon ion-social-instagram"></i></a></div>
+                  </div>
+                  <p class="copyright">FERRARI © 2024</p>
+              </div>
+          </footer>
+      </div>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+<script>
+   $(document).ready(function(){
+        $(".a").waypoint(function(){
+          $(".a").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aa").waypoint(function(){
+          $(".aa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaa").waypoint(function(){
+          $(".aaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaa").waypoint(function(){
+          $(".aaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaa").waypoint(function(){
+          $(".aaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaa").waypoint(function(){
+          $(".aaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaa").waypoint(function(){
+          $(".aaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaa").waypoint(function(){
+          $(".aaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".aaaaaaaaaaaaaaaa").waypoint(function(){
+          $(".aaaaaaaaaaaaaaaa").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".p").waypoint(function(){
+          $(".p").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pp").waypoint(function(){
+          $(".pp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+   
+      $(document).ready(function(){
+        $(".ppp").waypoint(function(){
+          $(".ppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppp").waypoint(function(){
+          $(".pppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".ppppp").waypoint(function(){
+          $(".ppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppppp").waypoint(function(){
+          $(".pppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".ppppppp").waypoint(function(){
+          $(".ppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppppppp").waypoint(function(){
+          $(".pppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".ppppppppp").waypoint(function(){
+          $(".ppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppppppppp").waypoint(function(){
+          $(".pppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".ppppppppppp").waypoint(function(){
+          $(".ppppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppppppppppp").waypoint(function(){
+          $(".pppppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".ppppppppppppp").waypoint(function(){
+          $(".ppppppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppppppppppppp").waypoint(function(){
+          $(".pppppppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".ppppppppppppppp").waypoint(function(){
+          $(".ppppppppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+      $(document).ready(function(){
+        $(".pppppppppppppppp").waypoint(function(){
+          $(".pppppppppppppppp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-QAc08ipPd7ElgrEsKMj9mFi1LOYhEBBeusKfVSXktZSjlm5BIThey5q7IEYtZVixxC+lIN6CnSZCfI4s00Dq3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

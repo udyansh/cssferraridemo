@@ -1,0 +1,938 @@
+.main{
+    width: 1244px;
+    height: 2400px;
+    background-color: black;
+    margin: auto;
+  }
+  .racingg{
+    color: white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 65px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    
+  }
+  .racing:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  }
+  
+  
+  .racing:visited {
+  color: rgb(246, 250, 246);
+  }
+  
+  .racing:hover {
+  color: rgb(255, 255, 255);
+  }
+  
+  .racing:active {
+  color: rgb(255, 255, 255);
+  }
+  .bar{
+    width: 1244px;
+    height: 90px;
+    background-color: transparent;
+    opacity: 75%;
+    margin-top: 0px;
+  }
+  .img{
+    margin-left: 32px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .sportscar{
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 138px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .collections{
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 118px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .experence{
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 116px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .aboutus{
+    color: white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 116px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .imgone{
+    width: 1244px;
+    height: 600px;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .i{
+    width: 1244px;
+    height: 600px;
+    animation: fade-down 0.5s;
+    opacity: 1;
+  }
+  .hoen{
+    width: 300px;
+    height: 30px;
+   margin-top: -260px;
+   opacity: 0;
+   margin-left: 520px;
+  }
+  .these{
+    color: rgb(255, 255, 255);
+   
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    animation: fade-up 0.5s;
+    opacity: 1;
+  }
+  .htwo{
+    width: 700px;
+    height: 50px;
+    margin-left: 453px;
+    margin-top: 30px;
+opacity: 0;
+  }
+  .tt{
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    animation: fade-up 0.5s;
+    opacity: 1;
+  
+  }
+  .pone{
+margin-left: 70px;
+margin-top: 20px;
+opacity: 0;
+  }
+  .p{
+    color: rgb(255, 255, 255);
+    animation: fade-up 0.5s;
+    opacity: 1;
+  
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1px;
+  }
+  .imgtwo{
+    width: 1244px;
+    height: 600px;overflow: hidden;
+    margin-top: 100px;
+    opacity: 0;
+  }
+  .it{
+    width: 1244px;
+    animation: fade-down 0.5s;
+    opacity: 1;
+   
+  }
+  .ittwo{
+        width: 1244px;
+        height: 438px;
+        background-color: #e1e5e8;opacity: 1;
+  }
+  .two{
+    color: rgb(0, 0, 0);
+    animation: fade-up 0.5s;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1px;
+  }
+  .hthree{
+    margin-top: -280px;
+    margin-left: 345px;
+    opacity: 1;
+  }
+  .pp{
+    color: rgb(0, 0, 0);
+    animation: fade-up 0.5s;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1px;
+  }
+  .ptwo{
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+  .mainthree{
+    width: 1244px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-top: 128px;
+  }
+  .mainthreeone{
+    width: 1148px;
+    height: 150px;
+opacity: 0;
+    margin-top: -380px;
+    margin-left: 48px;
+  }
+  .dis{
+    color: rgb(0, 0, 0);
+    animation: fade-up 0.5s;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1px;
+  }
+  .hfour{
+margin-top: -250px;
+margin-left: 370px;
+  }
+  .pthree{
+    margin-top: 50px;
+    margin-left: 235px;
+    opacity: 0;
+  }
+  .ppp{
+    color: rgb(0, 0, 0);
+    animation: fade-up 0.5s;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1.5px;
+  }
+  .rowone{
+    width: 1244px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: 300px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .divo{
+    width: 500px;
+    height: 350px;
+    filter: drop-shadow(5px 5px 23px black);
+    margin-top: -300px;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .o{
+    width: 500px;
+    height: 350px;
+    animation: fade-down 0.5s;
+    opacity: 1;
+    transition: transform .2s
+    
+  }
+  .o:hover{
+    transform: scale(1.1); 
+  }
+  .th{
+    color: rgb(0, 0, 0);
+    animation: fade-up 0.5s;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1px;
+  }
+  .pppp{
+    color: rgb(0, 0, 0);
+    animation: fade-down 0.5s;
+    opacity: 1;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 1.2px;
+    margin-top: 40px;
+  }
+  .mainnine{
+    width: 1244px;
+    height: 318px;
+    background-color: rgba(253, 253, 253, 0);
+    margin-top: 0px;
+  }
+  .footer-dark {
+    padding:50px 0;
+    color:#ffffff;
+    background-color:#000000;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  .mainninee{
+    width: 1244px;
+    height: 500px;
+    background-color: black;
+    margin-top: 0px;
+  }
+  @keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px)scale(0.9);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px)scale(1);
+        
+    }
+  }
+  @keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px)scale(0.9);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px)scale(1);
+        filter: blur(0px);
+        
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 992px) and (max-device-width: 1199px) {
+
+
+    .bar {
+        width: 1199px!important;
+     
+       
+    }
+    .main {
+        width: 1199px!important;
+       
+     
+    }
+    .i,.imgone{
+        width: 1199px !important;
+    }
+    .imgtwo,.it{
+        width: 1199px !important;
+    }
+    .ittwo{
+        width: 1199px !important;
+    }
+    .mainthree{
+        width: 1199px!important;
+    }
+    .mainninee{
+      
+        width: 1199px !important;
+    }
+    .mainnine{
+        width: 1199px !important;
+    }
+  }
+
+
+
+
+
+
+
+
+  
+@media screen and (min-width: 768px) and (max-device-width: 991px) {
+
+
+  .bar {
+      width: 991px!important;
+   
+     
+  }
+  .main {
+      width: 991px!important;
+      height: 690px !important;
+     
+   
+  }
+  .i,.imgone{
+    width: 991px !important;
+}
+.imgtwo,.it{
+    width: 991px !important;
+}
+.ittwo{
+    width: 991px !important;
+}
+.mainthree{
+    width: 991px!important;
+}
+.mainninee{
+  
+    width: 991px !important;
+}
+.mainnine{
+    width: 991px !important;
+}
+.these{
+  margin-left: 210px !important;
+  width: 500px!important;
+}
+.tt{
+  margin-left: 170px !important;
+}
+.p{
+  width: 800px !important;
+  margin-left: 50px !important;
+}
+.two{
+  margin-left: 110px !important;
+}
+.pp{
+  margin-left: 30px !important;
+  
+}
+.dis{
+  margin-left: 130px !important;
+}
+.ppp{
+  margin-left: 60px !important;
+}
+.rowone{
+  width: 991px !important;
+}
+.imgtwo{
+  margin-top: 85px !important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-device-width: 767px) {
+
+
+    
+
+  .bar {
+      width: 767px!important;
+   background-color: rgba(0, 0, 0, 0.178) !important;
+     
+  }
+  .main {
+      width: 767px!important;
+     
+   background-color: white !important;
+  }
+
+
+
+  .i,.imgone{
+    width: 767px !important;
+    height: 450px  !important;
+   
+}
+.imgtwo,.it{
+    width: 767px !important;
+}
+.ittwo{
+    width: 767px !important;
+}
+.mainthree{
+    width: 767px!important;
+    margin-top: 90px !important;
+}
+.mainninee{
+  
+    width: 767px !important;
+}
+.mainnine{
+    width: 767px !important;
+}
+.these{
+  margin-left: 150px !important;
+  width: 500px!important;
+}
+.tt{
+  margin-left: 110px !important;
+}
+.p{
+  width: 600px !important;
+  margin-left: 50px !important;
+}
+.two{
+  margin-left: 50px !important;
+}
+.pp{
+  margin-left:  50px !important;
+  width: 600px!important;
+}
+.dis{
+  margin-left: 70px !important;
+}
+.ppp{
+  margin-left: 40px !important;
+  width: 650px!important;
+}
+.rowone{
+  width: 767px !important;
+  margin-top: 300px !important;
+  
+}
+.imgtwo{
+  margin-top: 85px !important;
+}
+.o{
+  height: 300px !important;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width:425px ) 
+and (max-device-width: 575px) {
+
+
+
+    .bar {
+        width: 575px!important;
+background-color: rgba(0, 0, 0, 0.162) !important;
+    }
+    
+
+.feriri{
+margin-left: -10px!important;
+}
+    .racing{
+        margin-left: -50px!important;
+        font-size: 9px!important;
+      }
+      .sportscar{
+        margin-left: 0px!important;
+        
+      }
+      
+      .collections{
+        margin-left: -25px!important;
+        font-size: 9px!important;
+        margin-top: 33px!important;
+      
+      }
+      .experence{
+        margin-left: 340px!important;
+        font-size: 9px!important;
+        margin-top: -25px!important;
+      
+      
+      }
+      .aboutus{
+        margin-left: 530px!important;
+        font-size: 9px!important;
+      
+      margin-top: -37px!important;
+      
+      }
+      
+
+    .main {
+        width: 575px!important;
+       background-color: white !important;
+     
+    }
+
+
+    .i,.imgone{
+      width: 575px !important;
+      height: 350px  !important;
+     
+  }
+  .imgtwo,.it{
+      width: 575px !important;
+  }
+  .ittwo{
+      width: 575px !important;
+      margin-top: -121px !important;
+  }
+  .mainthree{
+      width: 575px!important;
+      margin-top: 90px !important;
+  }
+  .mainninee{
+    height: 300px !important;
+      width: 575px !important;
+  }
+  .mainnine{
+      width: 575px !important;
+  }
+  .these{
+    margin-left: 120px !important;
+    width: 500px!important;
+    font-size: 11px !important;
+    margin-top: -170px !important;
+  }
+  .tt{
+    margin-left: 95px !important;
+    font-size: 25px !important;
+    margin-top: -10px !important;
+  }
+  .p{
+    width: 500px !important;
+    margin-left: 30px !important;
+    font-size: 7px !important;
+    margin-top: -10px !important;
+  }
+  .two{
+    margin-left: 50px !important;
+    font-size: 35px !important;
+  }
+  .pp{
+    margin-left:  30px !important;
+    width: 500px!important;
+  }
+  .dis{
+    margin-left: 70px !important;
+  }
+  .ppp{
+    margin-left: 30px !important;
+    width: 500px!important;
+  }
+  .rowone{
+    width: 575px !important;
+    margin-top: 300px !important;
+    
+  }
+  .imgtwo{
+    margin-top: 85px !important;
+  }
+  .o{
+    height: 300px !important;
+  
+  }
+  
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (min-device-width: 375px) 
+and (max-device-width: 425px) {
+
+
+
+
+
+    .bar {
+        width:425px!important;
+     background-color: rgba(0, 0, 0, 0.084) !important;
+       
+    }
+    
+
+.feriri{
+margin-left: -10px!important;
+}
+.racing{
+margin-left: -40px!important;
+font-size: 6px!important;
+}
+.sportscar{
+margin-left: -20px!important;
+
+}
+
+.collections{
+margin-left: -65px!important;
+font-size: 6px!important;
+margin-top: 39px!important;
+
+}
+.experence{
+margin-left: 315px!important;
+font-size: 6px!important;
+margin-top: -31px!important;
+
+
+}
+.aboutus{
+margin-left: 380px!important;
+font-size: 6px!important;
+
+margin-top: -31px!important;
+
+}
+
+    .main {
+        width:425px!important;
+      background-color: white !important;
+     
+    }
+    .i,.imgone{
+      width: 425px !important;
+      height: 250px  !important;
+     
+  }
+  .imgtwo,.it{
+      width: 425px !important;
+     
+  }
+  .ittwo{
+      width: 425px !important;
+      margin-top: -250px !important;
+  }
+  .mainthree{
+      width: 425px!important;
+      margin-top: 90px !important;
+  }
+  .mainninee{
+    height: 300px !important;
+      width: 575px !important;
+  }
+  .mainnine{
+      width: 425px !important;
+  }
+  .these{
+    margin-left: 70px !important;
+    width: 500px!important;
+    font-size: 11px !important;
+    margin-top: -130px !important;
+  }
+  .tt{
+    margin-left: 48px !important;
+    font-size: 25px !important;
+    margin-top: -10px !important;
+  }
+  .p{
+    width: 350px !important;
+    margin-left: 20px !important;
+    font-size: 7px !important;
+    margin-top: -10px !important;
+  }
+  .two{
+    margin-left: 35px !important;
+    font-size: 20px !important;
+  }
+  .pp{
+    margin-left:  20px !important;
+    width: 340px!important;
+    font-size: 8px !important;
+  }
+  .dis{
+    margin-left: 25px !important;
+    font-size: 20px !important;
+  }
+  .ppp{
+    margin-left: 30px !important;
+    width: 350px!important;
+  }
+  .rowone{
+    width: 425px !important;
+    margin-top: 300px !important;
+    
+  }
+  .imgtwo{
+    margin-top: 48px !important;
+  }
+  .o{
+    height: 260px !important;
+ 
+  }
+  .th{
+    font-size: 15px !important;
+  }
+  .pppp{
+    font-size: 10px !important;
+  }
+
+
+  }

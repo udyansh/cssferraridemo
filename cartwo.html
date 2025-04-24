@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />  
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&family=Poppins:wght@900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="cartwores.css">
+<style>
+    .main{
+        width: 1244px;
+      height: 800px;
+      margin: auto;
+      background-image: cover;
+      background-position: center;
+    }
+    .racingg{
+      color: white;
+      float: left;
+      margin-left: 40px;
+      margin-top: 30px;
+      width: 65px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      
+    }
+    .racing:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.racing:visited {
+  color: rgb(246, 250, 246);
+}
+
+.racing:hover {
+  color: rgb(255, 255, 255);
+}
+
+.racing:active {
+  color: rgb(255, 255, 255);
+}
+    .bar{
+      width: 1244px;
+      height: 90px;
+      background-color: transparent;
+      opacity: 75%;
+      margin-top: -800px;
+    }
+    .img{
+      margin-left: 32px;
+      margin-top: 20px;
+      width: 50px;
+      height: 50px;
+      float: left;
+    }
+    .sportscar{
+      color: white;
+      float: left;
+      margin-left: 50px;
+      margin-top: 30px;
+      width: 138px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .collections{
+      color: white;
+      float: left;
+      margin-left: 30px;
+      margin-top: 30px;
+      width: 118px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .experence{
+      color: white;
+      float: left;
+      margin-left: 50px;
+      margin-top: 30px;
+      width: 116px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .aboutus{
+      color: white;
+      float: left;
+      margin-left: 40px;
+      margin-top: 30px;
+      width: 116px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .videoo{
+      width: 1244px;
+      height: 700px;
+      background-color:;
+      opacity: 90%;
+     
+    }
+    
+    .sf{
+     
+     
+     color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 360px;
+margin-top: -380px;
+cursor: pointer;
+font-size: 40px;
+letter-spacing: 2px;
+
+   }
+   .maintwo{
+    width: 1244px;
+    height: 1036px;
+    margin-top: 938px;
+    background-position: center;
+    background-size: cover;
+   background-color: black;
+   opacity: 0;
+   overflow: hidden;
+   }
+   .oneone{
+    background-position: center;
+    background-size: cover;
+    
+    width: 1244px;
+    height: 550px;
+   }
+   .mainthree{
+    width: 1244px;
+    height: 190px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -160px;
+   }
+   .sff{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 120px;
+margin-top: -450px;
+cursor: pointer;
+font-size: 40px;
+letter-spacing: 6px;
+opacity: 0;
+width: 1200px;
+   }
+   .sfff{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 220px;
+margin-top: -10px;
+cursor: pointer;
+font-size: 40px;
+letter-spacing: 4px;
+opacity: 0;
+   }
+   .s{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 130px;
+margin-top: 40px;
+cursor: pointer;
+font-size: 15px;
+letter-spacing: 2px;
+width: 1007px;
+height: 100px;
+opacity: 0;
+   }
+   .mainfour{
+    width: 1244px;
+    height: 600px;
+    background-color: black;
+  overflow: hidden;
+    background-size: cover;
+   }
+   .be{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 60px;
+margin-top: -450px;
+cursor: pointer;
+font-size: 32px;
+letter-spacing: 0px;
+opacity: 0;
+   }
+   .b{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 60px;
+margin-top: 200px;
+cursor: pointer;
+font-size: 22px;
+letter-spacing: 0px;
+opacity: 0;
+   }
+   .bb{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 460px;
+margin-top: -35px;
+cursor: pointer;
+font-size: 22px;
+letter-spacing: 0px;
+opacity: 0;
+   }
+   .c{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 60px;
+margin-top: 20px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0;
+   }
+   .f{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 60px;
+margin-top: 20px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0;
+   }
+   .e{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 60px;
+margin-top: 20px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0;
+   }
+   .g{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 460px;
+margin-top: -90px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0;
+   }
+   .k{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 460px;
+margin-top: 20px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0;
+   }
+   .m{
+    color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-left: 460px;
+margin-top: 20px;
+cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0;
+   }
+   .button {     
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: solid white 1px;
+    cursor:pointer;
+    overflow: hidden;   
+    margin-left: 950px;
+margin-top: -500px;
+ text-align: center;
+width: 248px;
+height: 55px;
+}
+.mor{
+  cursor: pointer;
+font-size: 12px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+}
+.expll{
+  width: 445px;
+  height: 80px;
+  background-color: white;
+  float: right;
+  margin-top: 320px;
+  
+}
+.mainsix{
+  width: 1244px;
+  height: 430px;
+  background-color:#1b1b1f ;
+  margin-top: 370px;
+}
+.v{
+  cursor: pointer;
+font-size: 45px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -330px;
+margin-left: -1020px;
+opacity: 0;
+
+}
+.eng{
+  cursor: pointer;
+font-size: 10px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -10px;
+margin-left: -1015px;
+opacity: 0;
+}
+.seec{
+  cursor: pointer;
+font-size: 45px;
+letter-spacing: 0px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -72px;
+margin-left: -660px;
+opacity: 0;
+}
+.kmm{
+  cursor: pointer;
+font-size: 10px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -10px;
+margin-left: -655px;
+opacity: 0;
+}
+.kww{
+  cursor: pointer;
+font-size: 45px;
+letter-spacing: 0px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -72px;
+margin-left: -260px;
+opacity: 0;
+}
+.edr{
+  cursor: pointer;
+font-size: 10px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -10px;
+margin-left: -260px;
+opacity: 0;
+}
+.cve{
+  cursor: pointer;
+font-size: 45px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: 20px;
+margin-left: -1020px;
+opacity: 0;
+}
+.rpmm{
+  cursor: pointer;
+font-size: 10px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -10px;
+margin-left: -1015px;
+opacity: 0;
+
+}
+.tthe{
+  cursor: pointer;
+font-size: 15px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -212px;
+margin-left: 650px;
+width: 512px;
+height: 126px;
+opacity: 0;
+}
+.mainseven{
+  width: 1244px;
+  height: 700px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 190px;
+  overflow: hidden;
+
+}
+.unpp{
+  cursor: pointer;
+font-size: 40px;
+letter-spacing: -1px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -500px;
+margin-left: -800px;
+opacity: 0;
+}
+.maineight{
+  width: 1244px;
+  height: 500px;
+  background-color: #1b1b1f;
+  margin-top: 350px;
+}
+.conn{
+  width: 1244px;
+  height: 300px;
+  margin: auto;
+  margin-top: 400px;
+}
+.smt{
+  cursor: pointer;
+font-size: 30px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: -350px;
+margin-left: 570px;
+opacity: 0;
+}
+.smtt{
+  cursor: pointer;
+font-size: 30px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: 0px;
+margin-left: 420px;
+opacity: 0;
+}
+.smttt{
+  cursor: pointer;
+font-size: 13px;
+letter-spacing: 2px; 
+color: white;
+     font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+text-align: center ;
+margin-top: 40px;
+width: 383px;
+height: 192px;
+margin-left: 700px;
+opacity: 0;
+}
+.mainnine{
+  width: 1244px;
+  height: 500px;
+  background-color: black;
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.xtt{
+  opacity: 0;
+  transition: transform .2s;
+}
+.xtt:hover{
+  transform: scale(1.1); 
+}
+.xtt:hover{
+  transform: scale(1.1);
+ 
+}
+.xttt{
+  opacity: 0;
+  transition: transform .2s;
+}
+.xttt:hover{
+  transform: scale(1.1);
+ 
+}
+.xxt{
+  opacity: 0;
+  transition: transform .2s;
+}
+.cftd{
+  transition: transform .2s;
+}
+.cftd:hover{
+  transform: scale(1.1); 
+}
+
+</style>
+</head>
+<body style="background-color: black;">
+    
+
+<div class="container-fluid">
+<div class="main">
+  <div class="videoo">
+    <video class="video-slide vv"style=""
+     src="videos/Carlos & Charles - Ferrari SF90 models in Imola.mp4" 
+     autoplay muted loop width="1244px"height="700px">
+
+    </video><h2 class="sf">BEYOND IMAGINATION</h2>
+    <div class="bar sticky-top">
+    <div class="img"><a href="homepage.html"><img src="img/Prancing_horsee.svg.png" alt=""width="38px"height="49px"></a></div>
+    <div class="racingg"><a class="racing" href="racing.html">RACING</a></div>
+    <div class="sportscar"><a class="racing" href="sportscars.html"> SPORTS CARS</a></div>
+    <div class="collections"><a href="eyewear.html" class="racing">COLLECTIONS</a></div>
+    <div class="experence"><a href="lightshow.html" class="racing">EXPERIENCE</a></div>
+    <div class="aboutus"><a href="aboutus.html" class="racing">ABOUT US</a></div>
+  </div>
+  
+<div class="maintwo">
+
+<img class="cftd" src="img/cartwoo.jpg" alt="">
+</div>
+
+
+<h5 class="sff">SF90 
+    SPIDER: 
+    AN 
+    OPEN-AIR 
+    SUPERCAR</h5>
+  <h5 class="sfff">SERIES-PRODUCTION 
+    SUPERCAR</h5>
+<h5 class="s">As the Prancing Horse’s first production plug-in hybrid spider, the SF90 Spider sets new performance and innovation benchmarks not only for the marque’s range, but for the entire sports car sector. The new convertible has the same extreme supercar specification and record-breaking performance as the SF90 Stradale yet also adds further driving pleasure and versatility to the mix, thanks to the latest iteration of Ferrari’s signature Retractable Hard Top architecture. This makes the SF90 Spider the ideal car for owners that demand the very pinnacle of Ferrari technology, but still want the thrill and versatility of open-top driving.</h5>
+<h5 class="b">Base Pack</h5>
+<h5 class="bb">Fiorano</h5>
+<h5 class="c">CO2 EMISSIONS: 149 G/KM</h5>
+<h5 class="f">FUEL CONSUMPTION: 6,1 L/100 KM</h5>
+<h5 class="e">ELECTRIC ENERGY CONSUMPTION: 136 WH/KM</h5>
+<h5 class="g">162 G/KM</h5>
+<h5 class="k">6,4 L/100 KM</h5>
+<h5 class="m">123 WH/KM</h5>
+<button class="button"><h5 class="mor">Sign Up</h5></button>
+<div class="mainthree"></div>
+
+<div class="mainfour">
+
+  <img class="xtt" src="img/qqq.jpg" alt="" width="1244px" height="600px">
+</div>
+<h5 class="be">1,000 
+    CV 
+    PLUG-IN <br>
+    HYBRID 
+    SYSTEM</h5>
+
+
+
+
+<div class="mainsix"></div>
+<h5 class="v">V8</h5>
+<h5 class="eng">ENGINE</h5>
+<h5 class="seec">2.5 sec</h5>
+<h5 class="kmm">0-100 KM/H</h5>
+<h5 class="kww">162 kW</h5>
+<h5 class="edr">EDRIVE POWER</h5>
+<h5 class="cve">1000 <br>cv</h5>
+<h5 class="rpmm">
+  MAXIMUM POWER @ <br>7500 RPM</h5>
+  <h5 class="tthe">The SF90 Spider has plug-in hybrid architecture in which the internal
+     combustion engine is integrated with two electric motors at the front, which comprise 
+     the RAC-e (Cornering Angle Regulator, Electric) system, and one at the rear derived from and 
+     named after a Prancing Horse Formula 1 innovation, the MGUK (Motor Generator Unit, Kinetic).
+      The synergy between the internal combustion engine and the electric motors unleashes a maximum
+       of 1,000 cv and puts the 
+    SF90 Spider not only at the very top of its category but also the Maranello range.</h5>
+    <div class="mainseven">
+<img class="xttt" src="img/pngg3.jpg" alt="" width="1244px" height="700px">
+    </div>
+<h5 class="unpp"> <span style="margin-left: -25px;">AN OPEN-TOP </span><br><span style="margin-left: -20px;">POWERHOUSE</span><br> OF INNOVATION</h5>
+
+<div class="maineight">
+  <div class="container-fluid ">
+<img class="xxt" src="img/maineightoneee.jpg" alt="" width="500px"height="360px"style="margin-left: 40px;margin-top: 60px;">
+<h5 class="smt">SMART 
+  COOLING 
+  FLOW <br>
+  </h5>
+  <h5 class="smtt">MANAGEMENT</h5>
+  <h5 class="smttt">The internal combustion engine, gearbox, turbo-charged air,
+     battery pack and electric motors, the inverters and charging 
+     systems and brakes all need cooling. Meticulous attention was
+      paid to the design of the engine bay which houses both the 
+      usual internal combustion engine systems that generate
+       temperatures of nearly 900°C, and highly temperature-
+    sensitive electronic components.</h5>
+  </div>
+</div>
+<div class="mainnine"><img class="mainnine" src="img/partenership.jpg" alt="" ></div>
+
+<div class="mainninee">
+  <div class="footer-dark " style="background-color: black;">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Racing</h3>
+                      <ul>
+                          <li><a href="racing.html">Scuderia Ferrari</a></li>
+                          <li><a href="charls.html">Charles Leclerc</a></li>
+                          <li><a href="charls.html">Carlos Sainz</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>About</h3>
+                      <ul>
+                          <li><a href="homepage.html">Company</a></li>
+                          <li><a href="garrage.html">Magazine</a></li>
+                          <li><a href="#">Join us</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>Ferrari</h3>
+                      <p>The company currently offers a large model range which includes several supercars, grand tourers, and one SUV. Many early Ferraris, dating to the 1950s and 1960s, count among the most expensive cars ever sold at auction.</p>
+                  </div>
+                  <div class="col item social"><a href="https://www.facebook.com/Ferrari/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/ScuderiaFerrari?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/explore/ferrari"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/ferrari/"><i class="icon ion-social-instagram"></i></a></div>
+              </div>
+              <p class="copyright">FERRARI © 2024</p>
+          </div>
+      </footer>
+  </div>
+
+</div>
+</div>
+<script>
+   $(document).ready(function(){
+        $(".maintwo").waypoint(function(){
+          $(".maintwo").addClass("animate__animated animate__fadeIn");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".sff").waypoint(function(){
+          $(".sff").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".sfff").waypoint(function(){
+          $(".sfff").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".s").waypoint(function(){
+          $(".s").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".b").waypoint(function(){
+          $(".b").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".bb").waypoint(function(){
+          $(".bb").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".c").waypoint(function(){
+          $(".c").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".g").waypoint(function(){
+          $(".g").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".f").waypoint(function(){
+          $(".f").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".k").waypoint(function(){
+          $(".k").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".e").waypoint(function(){
+          $(".e").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".m").waypoint(function(){
+          $(".m").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".xtt").waypoint(function(){
+          $(".xtt").addClass("animate__animated animate__fadeIn");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".be").waypoint(function(){
+          $(".be").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".v").waypoint(function(){
+          $(".v").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".edr").waypoint(function(){
+          $(".edr").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".seec").waypoint(function(){
+          $(".seec").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".kmm").waypoint(function(){
+          $(".kmm").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".kww").waypoint(function(){
+          $(".kww").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".eng").waypoint(function(){
+          $(".eng").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".tthe").waypoint(function(){
+          $(".tthe").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".cve").waypoint(function(){
+          $(".cve").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".rpmm").waypoint(function(){
+          $(".rpmm").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".xttt").waypoint(function(){
+          $(".xttt").addClass("animate__animated animate__fadeIn");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".unpp").waypoint(function(){
+          $(".unpp").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".xxt").waypoint(function(){
+          $(".xxt").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".smt").waypoint(function(){
+          $(".smt").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".smtt").waypoint(function(){
+          $(".smtt").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".smttt").waypoint(function(){
+          $(".smttt").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-QAc08ipPd7ElgrEsKMj9mFi1LOYhEBBeusKfVSXktZSjlm5BIThey5q7IEYtZVixxC+lIN6CnSZCfI4s00Dq3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+</body>
+</html>

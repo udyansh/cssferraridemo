@@ -1,0 +1,1094 @@
+.racingg{
+  color: black;
+  float: left;
+  margin-left: -280px;
+  margin-top: 30px;
+  width: 65px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+  
+}
+.racing:link {
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+
+.racing:visited {
+color: rgb(0, 0, 0);
+}
+
+.racing:hover {
+color: rgb(0, 0, 0);
+}
+
+.racing:active {
+color: rgb(0, 0, 0);
+}
+.bar{
+  width: 1244px;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 75%;
+  margin-top: -810px;
+  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+}
+.img{
+  margin-left: 32px;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  
+
+}
+.sportscar{
+  color: black;
+  float: left;
+  margin-left: -160px;
+  margin-top: 30px;
+  width: 138px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+.collections{
+  color: black;
+  float: left;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 118px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+  letter-spacing: 2px;
+}
+.experence{
+  color: black;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 116px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+.aboutus{
+  color: black;
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 116px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+  .main{
+    width: 1244px;
+    height: 2060px;
+    margin: auto;
+   
+    background-color: rgba(255, 255, 255, 0);
+    
+  }
+  .rowone{
+    width: 744px;
+    height: 473px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 900px;
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+  }
+  .divone{
+    width: 369px;
+    height: 473px;
+    background-color: black;
+  }
+  .divtwo{
+    width: 369px;
+    height: 473px;
+    background-color: black;
+  }
+  .rowtwo{
+    width: 744px;
+    height: 473px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 900px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .slide{
+    width: 374px;
+    height: 993px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-top: -955px;
+    margin-right: 50px;
+    flex-direction: column;
+  }
+  .twoone{
+    width: 374px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+  }
+  .gr{
+    color: black;
+    float: left;
+   opacity: 0;
+    
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .hone{
+    color: black;
+    float: left;
+   margin-top: 27px;
+    opacity: 0;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .frame{
+    color: black;
+    float: left;
+   margin-top: 90px;
+    margin-left: -60px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    filter: opacity(0.4);
+  }
+  .imgone{
+width: 69px;
+height: 88px;
+margin-top: 140px;
+margin-left: -374px;
+  }
+  .twofour{
+    width: 374px;
+    height: 124px;
+    justify-content: center;
+    align-items: center;
+  }
+  .bn59 {
+    background-color: #141414;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    opacity: 1;
+    width: 374px;
+    height: 46px;
+    margin-top: 120px;
+  }
+  .add{
+    color: rgb(255, 255, 255);
+    float: left;
+ margin-top: 10px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    
+  }
+  .addd{
+    color: rgb(0, 0, 0);
+    float: left;
+ margin-top: 10px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    
+  }
+  .bn599 {
+    background-color: transparent;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    width: 374px;
+    height: 46px;
+    margin-top: 30px;
+  }
+  .dis{
+    color: rgb(0, 0, 0);
+    float: left;
+ margin-top: 50px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 0px;
+    opacity: 0;
+  }
+  .inn{
+    width: 360px;
+    height: 60px;
+    margin-top: 100px;
+    opacity: 0;
+    
+  }
+  .list{
+    margin-top: 80px;
+    opacity: 0;
+  }
+.img{
+  width: 374px;
+  height: 473px;
+}
+.mainnine{
+    width: 1244px;
+    height: 318px;
+    background-color: rgba(253, 253, 253, 0);
+    margin-top: 250px;
+  }
+  .footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#000000;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  .sign-up{
+    width: 1148px;
+    height: 373px;
+    background-color: #f6f6f6;
+    margin-top: 80px;
+    margin-left: 48px;
+  }
+  .sub{
+    color: rgb(0, 0, 0);
+    float: left;
+margin-top: 50px;
+margin-left: 450px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    
+  }
+  .ptwo{
+    color: rgb(0, 0, 0);
+    float: left;
+margin-top: 10px;
+margin-left: 220px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    
+  }
+  .pthree{
+    color: rgb(0, 0, 0);
+    float: left;
+margin-top: 30px;
+margin-left: 360px;
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    filter: opacity(0.5);
+  }
+  .email{
+    margin-top: 60px;
+    margin-left: -120px;
+    width: 400px;
+    height: 47px;
+    
+
+
+    
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+   
+   
+    border-radius: 50px;
+    
+   
+    cursor: pointer;
+    
+    opacity: 1;
+  }
+  .bn5 {
+    background-color: #14141400;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 137px;
+    opacity: 1;
+    margin-left: 500px;
+    margin-top: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 992px) and (max-device-width: 1199px) {
+
+
+    .bar {
+        width: 1199px!important;
+     
+       
+    }
+    .main {
+        width: 1199px!important;
+       
+     
+    }
+    .slide{
+      margin-left: 1850px!important;
+    }
+    .gr{
+      margin-left: 50px!important;
+    }
+    .twotwo{
+      margin-left: 50px!important;
+    }
+    .imgone{
+      margin-left: -325px!important;
+      margin-top: 150px!important;
+    }
+    .bn59{
+      margin-top: 150px!important;
+      margin-left: 50px!important;
+      width: 330px!important;
+    }
+    .bn599{
+      
+      margin-left: 50px!important;
+      width: 330px!important;
+    }
+    .dis{
+      margin-left: 50px!important;
+    }
+    .inn{
+      margin-left: 50px!important;
+    }
+    .list{
+      margin-left: 40px!important;
+      margin-top: 50px!important;
+    }
+    .sign-up{
+      width: 1119px !important;
+      margin-left: 40px !important;
+    }
+    .mainnine{
+      width: 1199px!important;
+    }
+
+
+  }
+
+
+
+  @media screen and (min-width: 768px) and (max-device-width: 991px) {
+
+
+    .bar {
+        width: 991px!important;
+     
+       
+    }
+    .main {
+        width: 991px!important;
+       
+     
+    }
+    .slide{
+      margin-left: 1850px!important;
+    }
+    .gr{
+      margin-left: 60px!important;
+      margin-top: 68px!important;
+    }
+    .twotwo{
+      margin-left: 60px!important;
+    }
+    .imgone{
+      margin-left: -314px!important;
+      margin-top: 160px!important;
+    }
+    .frame{
+      margin-top: 160px!important;
+    }
+    .bn59{
+      margin-top: 180px!important;
+      margin-left: 60px!important;
+      width: 330px!important;
+    }
+    .bn599{
+      
+      margin-left: 60px!important;
+      width: 330px!important;
+    }
+    .dis{
+      margin-left: 60px!important;
+    }
+    .inn{
+      margin-left: 60px!important;
+    }
+    .list{
+      margin-left: 40px!important;
+      margin-top: 60px!important;
+    }
+    .sign-up{
+      width: 911px !important;
+      margin-left: 40px !important;
+    }
+    .mainnine{
+      width: 991px!important;
+    }
+    .rowone,.rowtwo{
+      margin-left: 0px !important;
+    }
+    .divone,.divtwo{
+      width: 300px !important;
+      height: 400px !important;
+    }
+    .rowtwo{
+      margin-top: -60px !important;
+    }
+    li{
+      font-size: 9.5px !important;
+    }
+    .sub{
+      margin-left: 350px !important;
+    }
+    .ptwo{
+      margin-left: 120px !important;
+    }
+    .email{
+      margin-left: 270px !important; 
+      margin-top: -20px !important; 
+    }
+    .pthree{
+      margin-left: 280px !important;
+    }
+    .bn5{
+      margin-left: 400px !important;
+    }
+
+  }
+
+  @media screen and (min-width: 576px) and (max-device-width: 767px) {
+
+
+    .racing{
+      margin-left: -40px!important;
+      font-size: 9px!important;
+    }
+    .sportscar{
+      margin-left: -210px!important;
+      
+    }
+    
+    .collections{
+      margin-left: -100px!important;
+      font-size: 9px!important;
+      margin-top: 35px!important;
+    
+    }
+    .experence{
+       margin-left: -0px!important;
+      font-size: 9px!important;
+      margin-top: 34px!important;
+      
+    
+    
+    }
+    .aboutus{
+      margin-left: -10px!important;
+      font-size: 9px!important;
+    
+    margin-top: 34px!important;
+    
+    }
+ 
+
+
+    .bar {
+        width: 767px!important;
+     
+       
+    }
+    .main {
+        width: 767px!important;
+       
+     
+    }
+    .slide{
+      margin-left: 1850px!important;
+      height: 900px !important;
+    }
+    .gr{
+      margin-left: 150px!important;
+      margin-top: 170px!important;
+      font-size: 18px !important;
+    }
+    .twotwo{
+      margin-left: 150px!important;
+    }
+    .imgone{
+      margin-left: -225px!important;
+      margin-top: 300px!important;
+    }
+    .frame{
+      margin-top: 170px!important;
+    }
+    .bn59{
+      margin-top: 180px!important;
+      margin-left: 150px!important;
+      width: 250px!important;
+    }
+    .bn599{
+      
+      margin-left: 150px!important;
+      width: 250px!important;
+    }
+    .dis{
+      margin-left: 150px!important;
+      font-size: 10px !important;
+      margin-top: 40px !important;
+    }
+    .inn{
+      margin-left: 150px!important;
+      font-size: 12px !important;
+      margin-top: 60px !important;
+     
+
+    }
+    .list{
+      margin-left: 100px!important;
+      margin-top: 40px!important;
+      display: none;
+    }
+    .sign-up{
+      width: 687px !important;
+      margin-left: 40px !important;
+      margin-top: -40px !important;
+      height: 450px !important;
+    
+    }
+    .mainnine{
+      width: 767px!important;
+    }
+    .rowone,.rowtwo{
+      margin-left: 30px !important;
+    }
+    .divone,.divtwo{
+      width: 220px !important;
+      height: 300px !important;
+    }
+    .rowtwo{
+      margin-top: -160px !important;
+    }
+    li{
+      font-size: 9.5px !important;
+    }
+    .sub{
+      margin-left: 230px !important;
+    }
+    .ptwo{
+      margin-left: 20px !important;
+    }
+    .email{
+      margin-left: 150px !important; 
+      margin-top: 0px !important; 
+    }
+    .pthree{
+      margin-left: 180px !important;
+    }
+    .bn5{
+      margin-left: 280px !important;
+    }
+
+  }
+
+
+
+  @media screen and (min-device-width:425px ) 
+    and (max-device-width: 575px) {
+
+
+
+       
+        .racing{
+          margin-left: -40px!important;
+          font-size: 8px!important;
+        }
+        .sportscar{
+          margin-left: -220px!important;
+          
+        }
+        
+        .collections{
+          margin-left: -125px!important;
+          font-size: 8px!important;
+          margin-top: 37px!important;
+        
+        }
+        .experence{
+           margin-left: -35px!important;
+          font-size: 8px!important;
+          margin-top: 37px!important;
+          
+        
+        
+        }
+        .aboutus{
+          margin-left: -40px!important;
+          font-size: 8px!important;
+        
+        margin-top: 37px!important;
+        
+        }
+     
+    
+    
+        .bar {
+            width: 575px!important;
+         
+           
+        }
+        .main {
+            width: 575px!important;
+           
+         
+        }
+        .slide{
+          margin-left: 1850px!important;
+          height: 700px !important;
+        }
+        .gr{
+          margin-left: 210px!important;
+          margin-top: 260px!important;
+          font-size: 12px !important;
+        }
+        .twotwo{
+          margin-left: 210px!important;
+        }
+        .hone{
+          font-size: 10px !important;
+        }
+        .imgone{
+          margin-left: -165px!important;
+          margin-top: 340px!important;
+        }
+        .frame{
+         margin-left: 210px !important;
+          font-size: 10px !important;
+          margin-top: 120px !important;
+        }
+        
+        .bn59{
+          margin-top: 180px!important;
+          margin-left: 210px!important;
+          width: 180px!important;
+        }
+        .bn599{
+          
+          margin-left: 210px!important;
+          width: 180px!important;
+        }
+        .dis{
+          margin-left: 210px!important;
+          font-size: 10px !important;
+          margin-top: 40px !important;
+          display: none;
+        }
+        .inn{
+          margin-left: 210px!important;
+          font-size: 12px !important;
+          margin-top: 60px !important;
+         display: none;
+    
+        }
+        .list{
+          margin-left: 100px!important;
+          margin-top: 40px!important;
+          display: none;
+        }
+        .sign-up{
+          width: 523px !important;
+          margin-left: 20px !important;
+          margin-top: -100px !important;
+          height: 450px !important;
+        
+        }
+        .mainnine{
+          width: 575px!important;
+        }
+        .rowone,.rowtwo{
+          margin-left: 30px !important;
+        }
+        .divone,.divtwo{
+          width: 150px !important;
+          height: 200px !important;
+        }
+        .rowtwo{
+          margin-top: -250px !important;
+        }
+        li{
+          font-size: 9.5px !important;
+        }
+        .sub{
+          margin-left: 140px !important;
+          margin-top: 0px !important;
+        }
+        .ptwo{
+          margin-left: 30px !important;
+        }
+        .email{
+          margin-left: 130px !important; 
+          margin-top: 56px !important; 
+          width: 300px !important;
+        }
+        .pthree{
+          margin-left: 150px !important;
+        }
+        .bn5{
+          margin-left: 220px !important;
+          margin-top: 20px !important;
+        }
+    .img{
+      height: 100px !important;
+    }
+
+
+
+
+
+      }
+
+
+
+      @media screen and (min-device-width: 375px) 
+    and (max-device-width: 425px) {
+
+
+      .bar {
+        width:425px!important;
+     
+       
+    }
+    
+    .racing{
+      margin-left: -40px!important;
+      font-size: 6px!important;
+    }
+    .sportscar{
+      margin-left: -235px!important;
+      
+    }
+    
+    .collections{
+      margin-left: -165px!important;
+      font-size: 6px!important;
+      margin-top: 39px!important;
+    
+    }
+    .experence{
+       margin-left: 315px!important;
+      font-size: 6px!important;
+      margin-top: -81px!important;
+      
+    
+    
+    }
+    .aboutus{
+      margin-left: 380px!important;
+      font-size: 6px!important;
+    
+    margin-top: -81px!important;
+    
+    }
+
+   
+
+
+
+
+
+
+    .main {
+        width:425px!important;
+       
+     
+    }
+
+
+    .slide{
+      margin-left: 1850px!important;
+      height: 700px !important;
+    }
+    .gr{
+      margin-left: 250px!important;
+      margin-top: 350px!important;
+      font-size: 8px !important;
+    }
+    .twotwo{
+      margin-left: 250px!important;
+    }
+    .hone{
+      font-size: 6px !important;
+      margin-top: 10px !important;
+    }
+    .imgone{
+      margin-left: -123px!important;
+      margin-top: 360px!important;
+      width: 49px !important;
+      height: 66px !important;
+    }
+    .frame{
+     margin-left: 250px !important;
+      font-size: 6px !important;
+      margin-top: 80px !important;
+    }
+    
+    .bn59{
+      margin-top: 180px!important;
+      margin-left: 250px!important;
+      width: 150px!important;
+      height: 30px!important;
+    }
+    .add,.addd{
+      font-size: 6px !important;
+    }
+    .bn599{
+      
+      margin-left: 250px!important;
+      width: 150px!important;
+      height: 30px !important;
+      margin-top: 10px !important;
+    }
+    .dis{
+      margin-left: 250px!important;
+      font-size: 10px !important;
+      margin-top: 40px !important;
+      display: none;
+    }
+    .inn{
+      margin-left: 250px!important;
+      font-size: 12px !important;
+      margin-top: 60px !important;
+     display: none;
+
+    }
+    .list{
+      margin-left: 100px!important;
+      margin-top: 40px!important;
+      display: none;
+    }
+    .sign-up{
+      width: 385px !important;
+      margin-left: 20px !important;
+      margin-top: -200px !important;
+      height: 290px !important;
+    
+    }
+    .mainnine{
+      width: 425px!important;
+      margin-top: 90px !important;
+    }
+    .rowone,.rowtwo{
+      margin-left: 30px !important;
+    }
+    .divone,.divtwo{
+      width: 100px !important;
+      height: 130px !important;
+    }
+    .rowtwo{
+      margin-top: -340px !important;
+    }
+    li{
+      font-size: 9.5px !important;
+    }
+    .sub{
+      margin-left: 60px !important;
+      margin-top: -160px !important;
+    }
+    .ptwo{
+      margin-left: 30px !important;
+      margin-top: -120px !important;
+    }
+    #email{
+      margin-left: 90px !important; 
+      margin-top: 170px !important; 
+      width: 200px !important;
+      height: 30px !important;
+    }
+   
+    .pthree{
+      margin-left: 100px !important;
+      margin-top: -48px !important;
+      font-size: 8px !important;
+    }
+    .bn5{
+      margin-left: 140px !important;
+      margin-top: 20px !important;
+      height: 30px !important;
+      width: 100px !important;
+    }
+.img{
+  height: 100px !important;
+}
+
+
+
+
+    }

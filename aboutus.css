@@ -1,0 +1,735 @@
+.racingg{
+    color: white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 65px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+    
+  }
+  .racing:link {
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+
+.racing:visited {
+color: rgb(246, 250, 246);
+}
+
+.racing:hover {
+color: rgb(255, 255, 255);
+}
+
+.racing:active {
+color: rgb(255, 255, 255);
+}
+  .bar{
+    width: 1244px;
+    height: 90px;
+    background-color: transparent;
+    opacity: 75%;
+    margin-top: -810px;
+  }
+  .img{
+    margin-left: 32px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .sportscar{
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 138px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .collections{
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 118px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .experence{
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 116px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .aboutus{
+    color: white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 116px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-stretch: ultra-condensed;
+    letter-spacing: 2px;
+  }
+  .main{
+    width: 1244px;
+    height: 3500px;
+    margin: auto;
+   
+    background-color: rgb(255, 255, 255);
+    
+  }
+  .imgone{
+    width: 1244px;
+    height: 700px;
+    margin-top: 720px;
+    opacity: 0;
+
+  }
+  .ab{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+margin-top: -390px;
+font-size: 40px;
+margin-left: 510px;
+opacity: 0;
+
+  }
+  .maintwo{
+    width: 1244px;
+    height: 900px;
+    background-color: white;
+    margin-top: 310px;
+  }
+  .pone{
+    color: rgb(0, 0, 0);
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+margin-top: -770px;
+width: 765px;
+height: 80px;
+margin-left: 280px;
+letter-spacing: 0px;
+opacity: 0;
+  }
+  .our{
+    width: 300px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+margin-top: 100px;
+margin-left: 515px;
+opacity: 0;
+  }
+  .rowone{
+    height: 300px;
+    width: 1244px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+    opacity: 0;
+  }
+  .divone{
+    width: 406px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-top: -60px;
+    overflow: hidden;
+    filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  }
+  .firstimg{
+    width: 406px;
+    height: 300px;
+    opacity: 1;
+  transition: transform .2s;
+  }
+  .firstimg:hover{
+    transform: scale(1.1); 
+    filter: sepia(0.5);
+  }
+  .rowtwo{
+    width: 1244px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+    opacity: 0;
+  }
+  .divtwo{
+background-color: rgba(255, 255, 255, 0);
+width: 406px;
+height: 80px;
+margin-top: -40px;
+  }
+  .headingone{
+   
+    color: rgb(0, 0, 0);
+        font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+letter-spacing: 2px;
+margin-left: 10px;
+
+  }
+  .rowthree{
+    width: 1244px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+    opacity: 0;
+  }
+  .divthree{
+    width: 496px;
+    height: 180px;
+    background-color: #ffffff00;
+    margin-top: -60px;
+  }
+  .mainthree{
+    width: 1244px;height: 600px;background-color: rgb(255, 255, 255);margin-top: 100px;
+    overflow: hidden; filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+  }
+  .mainimg{
+    width: 1244px;height: 700px;
+    opacity: 0;
+     transition: transform .2s;
+    transform: scale(1.1);  
+  }
+   .mainimg:hover{
+    transform: scale(1.0); 
+    filter:grayscale(75%); 
+    
+  }
+  .mainfour{
+    width: 1244px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 270px;
+    display: flex;
+  } 
+  .divv{
+    width: 622px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+  }
+  .divvv{
+    width: 622px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+  }
+  .divfourimg{
+    width: 622px;
+    height: 500px;
+    transition: transform .2s;
+    transform: scale(1.1); 
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+  }
+  .divfourimg:hover{
+    transform: scale(1.0); 
+    filter:grayscale(75%); 
+    
+  }
+  .foun{
+    color: rgb(255, 255, 255);
+        font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+letter-spacing: 2px;
+margin-left: 100px;
+margin-top: 100px;
+opacity: 0;
+  }
+  .ourr{
+    color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+letter-spacing: 2px;
+margin-left: 100px;
+margin-top: 30px;
+opacity: 0;
+  }
+  .footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  .mainnine{
+    width: 1244px;
+    height: 500px;
+    background-color: black;
+    margin-top: -100px;
+    
+  }
+  .wee{
+    opacity: 0;
+  }
+  .weee{
+    opacity: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (min-width: 992px) and (max-device-width: 1199px) {
+
+
+  .bar {
+      width: 1199px!important;
+   
+     
+  }
+  .main {
+      width: 1199px!important;
+     
+   
+  }
+  .imgone{
+    width: 1199px!important;
+  }
+  .maintwo{
+    width: 1199px!important;
+  }
+  .mainthree{
+    width: 1199px!important;
+  }
+  .mainfour{
+    width: 1199px!important;
+  }
+  .mainnine{
+    width: 1199px!important;
+  }
+  .rowtwo{
+    width: 1199px!important;
+  }
+  .rowone{
+    width: 1199px!important;
+  }
+  .rowthree{
+    width: 1199px!important;
+  }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-device-width: 991px) {
+
+
+  .bar {
+      width: 991px!important;
+   
+     
+  }
+  .main {
+      width: 991px!important;
+     
+   
+  }
+  .imgone{
+    width: 991px!important;
+  }
+  .maintwo{
+    width: 991px!important;
+  }
+  .mainthree{
+    width:991px!important;
+  }
+  .mainfour{
+    width:991px!important;
+  }
+  .mainnine{
+    width: 991px!important;
+  }
+  .rowtwo{
+    width: 991px!important;
+    gap: 80px !important;
+   
+  }
+  .headingone{
+    font-size: 20px !important;
+  }
+  .rowone{
+    width: 991px!important;
+    margin-left: ;
+  }
+  .rowthree{
+    width: 991px!important;
+  }
+  .ab{
+    margin-left: 380px !important;
+  }
+  .pone{
+    margin-left: 150px !important;
+  }
+  .our{
+    margin-left: 400px !important;
+  }
+  .foun{
+    margin-left: 60px !important;
+  }
+  .ourr{
+    margin-left: 60px !important;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-device-width: 767px) {
+
+
+
+
+  .bar {
+      width: 767px!important;
+   
+     
+  }
+  .main {
+      width: 767px!important;
+     
+   
+  }
+  .imgone{
+    width: 767px!important;
+    height: 500px !important;
+    margin-top: 700px;
+  }
+  .maintwo{
+    width: 767px!important;
+  }
+  .mainthree{
+    width:767px!important;
+    margin-top: 200px !important;
+  }
+  .mainfour{
+    width:767px!important;
+  }
+  .mainnine{
+    width:767px!important;
+  }
+  .rowtwo{
+    width:767px!important;
+    gap: 80px !important;
+   
+  }
+  .headingone{
+    font-size: 20px !important;
+  }
+  .rowone{
+    width:767px!important;
+    margin-left: ;
+  }
+  .rowthree{
+    width:767px!important;
+  }
+  .ab{
+    margin-left: 280px !important;
+    margin-top: -280px !important;
+  }
+  .pone{
+    margin-left: 40px !important;
+  }
+  .our{
+    margin-left: 270px !important;
+  }
+  .foun{
+    margin-left: 30px !important;
+  }
+  .ourr{
+    margin-left: 30px !important;
+  }
+  .mainimg{
+    margin-left: -200px !important;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width:425px ) 
+    and (max-device-width: 575px) {
+
+
+
+        .bar {
+            width: 575px!important;
+         
+           
+        }
+        
+
+.feriri{
+    margin-left: -10px!important;
+}
+        .racing{
+            margin-left: -50px!important;
+            font-size: 9px!important;
+          }
+          .sportscar{
+            margin-left: 0px!important;
+            
+          }
+          
+          .collections{
+            margin-left: -25px!important;
+            font-size: 9px!important;
+            margin-top: 33px!important;
+          
+          }
+          .experence{
+            margin-left: 340px!important;
+            font-size: 9px!important;
+            margin-top: -25px!important;
+          
+          
+          }
+          .aboutus{
+            margin-left: 530px!important;
+            font-size: 9px!important;
+          
+          margin-top: -37px!important;
+          
+          }
+          
+       
+
+
+
+
+
+
+        .main {
+            width: 575px!important;
+           
+         
+        }
+        .imgone{
+          width: 575px!important;
+          height: 450px !important;
+          margin-top: 700px;
+        }
+        .maintwo{
+          width: 575px!important;
+        }
+        .mainthree{
+          width:575px!important;
+          margin-top: 400px !important;
+        }
+        .mainfour{
+          width:575px!important;
+        }
+        .mainnine{
+          width:575px!important;
+        }
+        .rowtwo{
+          width:575px!important;
+          gap: 80px !important;
+         
+        }
+        .headingone{
+          font-size: 10px !important;
+        }
+        .rowone{
+          width:575px!important;
+        
+        }
+        .rowthree{
+          width:575px!important;
+        }
+        .ab{
+          margin-left: 180px !important;
+          margin-top: -280px !important;
+        }
+        .pone{
+          margin-left: 30px !important;
+          font-size: 14px !important;
+        }
+        .our{
+          margin-left: 190px !important;
+          font-size: 25px !important;
+        }
+        .foun{
+          margin-left: 30px !important;
+        }
+        .ourr{
+          margin-left: 30px !important;
+        }
+        .mainimg{
+          margin-left: -200px !important;
+        }
+      
+
+
+
+      }

@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+      />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&family=Poppins:wght@900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />  
+      <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@600&family=Poppins:wght@900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="chh.css">
+<style>
+    .racingg{
+      color: black;
+      float: left;
+      margin-left: 40px;
+      margin-top: 30px;
+      width: 65px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      
+    }
+    .racing:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+.racing:visited {
+  color: rgb(0, 0, 0);
+}
+
+.racing:hover {
+  color: rgb(0, 0, 0);
+}
+
+.racing:active {
+  color: rgb(0, 0, 0);
+}
+    .bar{
+      width: 1244px;
+      height: 90px;
+      background-color: rgba(0, 0, 0, 0.178);
+      opacity: 75%;
+      margin-top: -810px;
+      filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+    }
+    .img{
+      margin-left: 32px;
+      margin-top: 20px;
+      width: 50px;
+      height: 50px;
+      float: left;
+      
+
+    }
+    .sportscar{
+      color: black;
+      float: left;
+      margin-left: 50px;
+      margin-top: 30px;
+      width: 138px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .collections{
+      color: black;
+      float: left;
+      margin-left: 30px;
+      margin-top: 30px;
+      width: 118px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .experence{
+      color: black;
+      float: left;
+      margin-left: 50px;
+      margin-top: 30px;
+      width: 116px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .aboutus{
+      color: black;
+      float: left;
+      margin-left: 40px;
+      margin-top: 30px;
+      width: 116px;
+      height: 25px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+    }
+    .main{
+      width: 1244px;
+      height: 4000px;
+      margin: auto;
+     
+      background-color: white;
+      
+    }
+    .imgone{
+      width: 1116px;
+      height: 626px;
+      margin: auto;
+      background-color: white;
+      margin-top: 1100px;
+      -webkit-box-shadow:0px 10px 39px 10px rgba(62,66,66,0.22);
+-moz-box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.22);
+box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.22);
+overflow: hidden;
+    }
+    .ch{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: -800px;
+      margin-left: 60px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.34) 6px 10px 26px;
+    }
+    .pod{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 50px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-left: 60px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.34) 6px 10px 26px;
+    }
+    .abu{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: 800px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .abuu{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: 50px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .abuuu{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: 50px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .abuuuu{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: 50px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .scu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .mainnine{
+  width: 1244px;
+  height: 500px;
+  background-color: black;
+  
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.mmm{
+  background-color: white;
+  width: 1244px;
+  height: 200px;
+}
+.ii{
+  opacity: 0;
+}
+.scuu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .scuuu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .scuuuu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .scuuuuu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .scuuuuuu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .scuuuuuuu{
+      color: black;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 1.5px;
+      margin-left: 220px;
+      opacity: 0;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 32px;
+    }
+    .mainn{
+      width: 1244px;
+      height: 600px;
+      background-color: rgb(255, 255, 255);
+      margin: auto;
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      
+    }
+    .neww{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: -50px;
+      margin-left: 0px;
+      opacity: 0;
+    }
+    .nnew{
+      background: #959595;
+background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow: rgba(62,66,66,0.34) 6px 10px 16px;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-style: bold;
+
+      font-size: 30px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: -400px;
+      margin-left: 485px;
+    }
+    .mainninee{
+      margin-top: 564px;
+      height: 318px!important;
+      background-color: #01010100;
+    }
+    .divon{
+      width: 350px;
+      height: 200px;
+      overflow: hidden;
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0));
+    }
+    .divtw{
+      width: 350px;
+      height: 200px;
+      background-color: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      filter: drop-shadow(5px 5px 5px black);
+    }
+    .divth{
+      width: 350px;
+      height: 200px;
+      background-color: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      filter: drop-shadow(5px 5px 5px black);
+    }
+    .dno{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: -50px;
+      margin-left: 0px;
+      margin-top: -150px;
+      margin-left: 70px;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 24px;
+    }
+    .dnt{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: -50px;
+      margin-left: 0px;
+      margin-top: -45px;
+      margin-left: 451px;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 24px;
+    }
+    .dnth{
+      color: black;
+      font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-stretch: ultra-condensed;
+      letter-spacing: 2px;
+      margin-top: -50px;
+      margin-left: 0px;
+      margin-top: -45px;
+      margin-left: 831px;
+      text-shadow: rgba(62,66,66,0.4) 0px 10px 24px;
+    }
+    .divimgone{
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+  transition: transform .2s;
+    }
+    .divimgone:hover{
+  transform: scale(1.1); 
+  opacity: 1;
+}
+    
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="main">
+          
+            <div class="bar sticky-top">
+                <div class="img"><a href="homepage.html"><img  src="img/Prancing_horsee.svg.png" alt=""width="38px"height="49px"></a></div>
+                <div class="racingg"><a class="racing" href="racing.html">RACING</a></div>
+                <div class="sportscar"><a class="racing" href="sportscars.html"> SPORTS CARS</a></div>
+                <div class="collections"><a href="eyewear.html" class="racing">COLLECTIONS</a></div>
+                <div class="experence"><a href="lightshow.html" class="racing">EXPERIENCE</a></div>
+                <div class="aboutus"><a href="aboutus.html" class="racing">ABOUT US</a></div>
+              </div>
+              
+              <div class="imgone"><img class="ii" src="img/char.jpg" alt="" width="1116px" height="626px"></div>
+              <h5 class="ch">CHARLES 
+                ENDS 
+                THE 
+                SEASON </h5>
+                <h5 class="pod">WITH 
+                  ANOTHER 
+                  PODIUM.</h5>
+                  <h6 class="abu">Abu Dhabi 26 November 2023</h6>
+                  <p class="scu">Scuderia Ferrari has ended the 2023 season with its ninth podium of the season. It came courtesy <br> of 
+                    Charles Leclerc, whose second place finish today at the Yas Marina circuit was never in doubt. <br> Unfortunately, 
+                    Carlos Sainz had a difficult day and so second place in the Constructors’ <br> championship was not to be, although
+                     the gap to Mercedes was a mere three points in the end. <br> However, Ferrari has demonstrated clear signs of 
+                     progress in the second half of the season, <br> establishing itself as the second best team, as can be seen from
+                      its tally of 215 points since the <br> summer break, even if there were a few too many no-scores.
+                     The Scuderia is also the only team <br> other than the dominant Red Bull to secure a win this year.</p>
+
+
+
+
+                     <p class="scuu">Straightforward race. The Abu Dhabi Grand Prix was not the most exciting race. Charles tried to <br> pass Max 
+                      Verstappen at the start, after which he concentrated on managing his tyres and the gap <br> to those behind, at
+                       first the two McLarens and then George Russell in the Mercedes, in the hope that <br> an opportunity might arise
+                        at some point over the 58 laps. The Monegasque was on a two-stop <br> strategy, starting on the Medium, then
+                         twice fitting Hards and he was always one of the quickest <br> cars on track. As for Carlos, he started from 
+                         16th on Hard tyres, moving onto a two-stop strategy, <br> running a very long second stint on the hardest 
+                         compound hoping for an eventual Safety Car, but it <br> never came. The Spaniard pitted again with two laps
+                          remaining, taking on a set of Softs, but the <br> team decided to retire the car and he was classified 18th.
+                    </p>
+
+
+
+
+
+
+
+
+                    <p class="scuuu">Closing stages. Over the last few laps, Charles tried everything to try and secure Ferrari second <br>
+                      place in the Constructors’ World Championship and he even let Sergio Perez in the Red Bull, who <br> had a five 
+                      second time penalty, pass him in the hope this would help the Mexican pull out a five <br> second gap and thus
+                       finish between him and George Russell, but the move didn’t work, so that in <br> the end, Leclerc was still second
+                        on the podium, alongside Verstappen and the aforementioned <br> Russell, who had therefore done enough to prevent
+                         the Scuderia catching Mercedes in the <br> Constructors’ standings.
+                    </p>
+
+
+
+
+
+
+
+
+
+                    <p class="scuuuu">One more day. The 2023 season is now over, but the cars have one more day of track action ahead <br> at Yas 
+                      Marina. This Tuesday they will tackle a post-season test. Carlos and Charles will both drive one <br> of the cars, while 
+                      the other will again be entrusted to reserve driver Robert Shwartzman. And there <br> are only 97 days to go to the start 
+                      of the 2024 season!</p>
+
+<h5 class="abuu">Charles Leclerc #16</h5>
+
+
+
+<p class="scuuuuu">Today, I had a very good car and the strategy was the right one. I could have pushed hard for many <br>
+   laps on the Medium tyres and my second place was never in danger. Unfortunately, in the end, <br>
+    Checo’s (Perez) five second penalty cost us a lot. Towards the end I tried to help him to build a gap <br>
+     over George (Russell) so that he could wipe out the penalty and finish ahead of the Mercedes, which <br>
+      would have put us ahead of them in the classification. <br>
+  However, looking back at the season, we can say it has been positive. We started the year with a car <br>
+   that we could not push to the limit. We knew what the problem was, but it took a while to change <br>
+    things. From Japan onwards my Ferrari became a very different car, capable of very good results. <br>
+     Unfortunately, over the course of the year there were several occasions when we were in a strong <br>
+      position but left points on the table: I’m thinking of my retirement in Bahrain when I was third, or in <br>
+       Brazil, where I qualified on the front row but I never actually started the race. <br>
+  I hope that, over the winter, we will be able to put everything we have learned to good use in order to <br>
+   be competitive right from the start of next season. We want to give something back to our fans for <br>
+    all their continued support.</p>
+
+
+
+<h5 class="abuuu">Carlos Sainz #55</h5>
+
+
+
+<p class="scuuuuuu">Not the way we wanted to finish the season, with a very tough double-header on my side in Las <br>
+   Vegas and here in Abu Dhabi. The race today was never going to be easy. The first stint on the Hard <br>
+    was risky and it didn’t go to plan. From there on our race was a bit compromised and we waited for <br>
+     a Safety Car that never came. <br>
+  It hurts badly to miss P2 in the Constructors but there have been plenty of positives throughout the <br>
+   year and we will of course work on the things we could’ve done better.  <br>
+  I want to thank the entire team, here and back home in Maranello, for their incredible effort all <br>
+   season long and also send a massive thank you to every single fan for their relentless support. We <br>
+    will regroup during the winter and come back stronger next year. Grazie a tutti e Forza Ferrari <br>
+     sempre.</p>
+
+
+
+     <h5 class="abuuuu">Frédéric Vasseur - Team Principal</h5>
+
+
+
+
+     <p class="scuuuuuuu">We are happy to have finished a far from easy season with a solid performance from Charles. <br>
+       Unfortunately, Carlos’ weekend took a turn for the worse starting from Friday and it’s a shame he <br>
+        was unable to bring home the three points but it’s not today that we lost second place in the <br>
+         Constructors’. Clearly, as Ferrari, we’re never that interested in finishing second, but it would still <br>
+          have been a reward for everyone who worked hard at the track and those who always gave it <br>
+           everything they had back in Maranello ever since the SF-23 first rolled out onto the Fiorano track. <br>
+      But the whole group can be pleased with how it reacted and fought back in the second part of the <br>
+       season. After the summer break that followed the Dutch Grand Prix, we made constant progress, <br>
+        to the point that we are the only team apart from Red Bull to have won a race. Charles ended the <br>
+         season with a string of strong performances and Carlos also had some very positive races <br>
+          including that Singapore win of course. The curtain comes down on Tuesday after the test and we <br>
+           are already looking ahead to the next one. We are determined to continue with the progress we <br>
+            have demonstrated over the past ten races.</p>
+<div class="mmm"></div>
+
+
+
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ch1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ch2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ch3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<div class="mainn">
+  <div class="divon"><img class="divimgone"  src="img/done.jpg" alt=""></div>
+  
+  <div class="divtw"><img class="divimgone" src="img/dtwo.jpg"  alt=""></div>
+  <div class="divth"><img class="divimgone" src="img/dthree.jpg" alt=""></div>
+</div>
+<h5 class="dno">
+  RACE 
+  RECAP: 
+  CHARLES 
+  SECOND, <br>
+  CARLOS 
+  18TH</h5>
+  <h5 class="dnt">CHARLES 
+    SHINES 
+    AT 
+    NIGHT 
+    FOR <br>
+    THE 
+    SCUDERIA</h5>
+    <h5 class="dnth">QUALI 
+      RECAP: 
+      CHARLES 
+      SECOND, <br>
+      CARLOS 
+      16TH</h5>
+<h5 class="nnew">RELATED NEWS</h5>
+
+
+
+
+
+
+            <div class="mainninee">
+              <div class="footer-dark " style="background-color: black;">
+                  <footer>
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-sm-6 col-md-3 item">
+                                  <h3>Racing</h3>
+                                  <ul>
+                                      <li><a href="racing.html">Scuderia Ferrari</a></li>
+                                      <li><a href="#">Charles Leclerc</a></li>
+                                      <li><a href="#">Carlos Sainz</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-sm-6 col-md-3 item">
+                                  <h3>About</h3>
+                                  <ul>
+                                      <li><a href="#">Company</a></li>
+                                      <li><a href="#">Magazine</a></li>
+                                      <li><a href="#">Join us</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-6 item text">
+                                  <h3>Ferrari</h3>
+                                  <p>The company currently offers a large model range which includes several supercars, grand tourers, and one SUV. Many early Ferraris, dating to the 1950s and 1960s, count among the most expensive cars ever sold at auction.</p>
+                              </div>
+                              <div class="col item social"><a href="https://www.facebook.com/Ferrari/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/ScuderiaFerrari?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/explore/ferrari"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/ferrari/"><i class="icon ion-social-instagram"></i></a></div>
+                          </div>
+                          <p class="copyright">FERRARI © 2024</p>
+                      </div>
+                  </footer>
+              </div>
+              </div>
+
+
+
+        </div>
+    </div>
+
+<script>
+   $(document).ready(function(){
+        $(".ch").waypoint(function(){
+          $(".ch").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".pod").waypoint(function(){
+          $(".pod").addClass("animate__animated animate__fadeInDown");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".ii").waypoint(function(){
+          $(".ii").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".abu").waypoint(function(){
+          $(".abu").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scu").waypoint(function(){
+          $(".scu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".abuu").waypoint(function(){
+          $(".abuu").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuuu").waypoint(function(){
+          $(".scuuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuuu").waypoint(function(){
+          $(".scuuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuuuu").waypoint(function(){
+          $(".scuuuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuuuuu").waypoint(function(){
+          $(".scuuuuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuuuuuu").waypoint(function(){
+          $(".scuuuuuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuuuuuuu").waypoint(function(){
+          $(".scuuuuuuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".scuu").waypoint(function(){
+          $(".scuu").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".abuuu").waypoint(function(){
+          $(".abuuu").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".abuuuu").waypoint(function(){
+          $(".abuuuu").addClass("animate__animated animate__fadeInLeft");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".dno").waypoint(function(){
+          $(".dno").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".dnt").waypoint(function(){
+          $(".dnt").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      $(document).ready(function(){
+        $(".dnth").waypoint(function(){
+          $(".dnth").addClass("animate__animated animate__fadeInUp");
+        },{offset:"80%"});
+      });
+      
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-QAc08ipPd7ElgrEsKMj9mFi1LOYhEBBeusKfVSXktZSjlm5BIThey5q7IEYtZVixxC+lIN6CnSZCfI4s00Dq3w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

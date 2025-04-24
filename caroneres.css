@@ -1,0 +1,571 @@
+@media screen and (min-width: 992px) and (max-device-width: 1199px) {
+
+
+    .bar {
+        width: 1199px!important;
+        height: 90px!important;
+       
+    }
+    .main {
+        width: 1199px!important;
+        height: 800px!important;
+        margin-top: -10px!important;
+     
+    }
+    .video-slide{
+        width: 1199px!important;
+        
+    }
+    .maintwo{
+        width: 1199px!important;
+    }
+    .cftd{
+        width: 1199px!important;
+    }
+    .mainthree{
+        width: 1199px!important;
+    }
+    .mainfour{
+        width: 1199px!important;
+    }
+    .xtt{
+        width: 1199px!important;
+    }
+    .mainsix{
+        width: 1199px!important;
+    }
+    .mainseven{
+        width: 1199px!important;
+    }
+    .maineight{
+        width: 1199px!important;
+    }
+    .mainnine{
+        width: 1199px!important;
+    }
+    .mainninee{
+        width: 1199px!important;
+    }
+    
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-device-width: 991px) {
+
+    .bar {
+        width: 991px!important;
+        height: 90px!important;
+    }
+    .main {
+        width: 991px!important;
+        height: 800px!important;
+    
+    }
+    .video-slide{
+        width: 991px!important;
+
+    } 
+    .maintwo{
+        width: 991px!important;
+    }
+    .cftd{
+        width: 991px!important;
+    }
+    .mainthree{
+        width: 991px!important;
+    }
+    .mainfour{
+        width: 991px!important;
+    }
+    .xtt{
+        width: 991px!important;
+    }
+    .mainsix{
+        width: 991px!important;
+    }
+    .mainseven{
+        width: 991px!important;
+        margin-top: 110px!important;
+    }
+    .xttt{
+       margin-left: -100px!important;
+    }
+    .maineight{
+        width: 991px!important;
+    }
+    .mainnine{
+        width: 991px!important;
+    }
+    .mainninee{
+        width: 991px!important;
+    }
+    .sf{
+        margin-left: 250px!important;
+    }
+    .sff{
+        margin-left: 160px!important;
+    }
+    .sfff{
+        margin-left: 110px!important;
+    }
+    .s{
+        margin-left: 70px!important;
+        font-size: 10px!important;
+    }
+    .button{
+        margin-left: 700px!important;
+    }
+    .tthe{
+        margin-left: 230px!important;
+        margin-top: -130px!important;
+        font-size: 20px!important;
+        letter-spacing: 2px!important;
+        width: 750px!important;
+    }
+    .smtt{
+        margin-left: 540px!important;
+    }
+    .smttt{
+        margin-left: 580px!important;
+    }
+}
+@media screen and (min-width: 576px) and (max-device-width: 767px) {
+    .bar {
+        width: 767px!important;
+        height: 90px!important;
+       
+    }
+    .main {
+        width: 767px!important;
+        height: 800px!important;
+       
+    }
+    .video-slide{
+      width: 767px!important;
+      margin-top: -80px!important;
+      margin-top: -130px!important;
+  } 
+  .maintwo{
+    width: 767px!important;
+    margin-top: 900px!important;
+}
+.cftd{
+    width: 767px!important;
+}
+.mainthree{
+    width: 767px!important;
+}
+.mainfour{
+    width: 767px!important;
+}
+.xtt{
+    width:767px!important;
+    height: 500px!important;
+}
+.mainsix{
+    width:767px!important;
+    margin-top: 310px!important;
+}
+.mainseven{
+    width: 767px!important;
+    margin-top: 110px!important;
+}
+.xttt{
+  
+   width: 1000px!important;
+   margin-left: -100px!important;
+   height: 600px!important;
+}
+.maineight{
+    width: 767px!important;
+    margin-top: 300px!important;
+}
+.mainnine{
+    width: 767px!important;
+    height: 500px!important;
+}
+.mainninee{
+    width: 767px!important;
+}
+.sf{
+    margin-left: 150px!important;
+}
+.sff{
+    margin-left: 90px!important;
+    font-size: 35px!important;
+}
+.sfff{
+    margin-left: 40px!important;
+    font-size: 35px!important;
+}
+.s{
+    margin-left: 100px!important;
+    font-size: 10px!important;
+    width: 600px!important;
+}
+.button{
+    margin-left: 600px!important;
+    width: 150px!important;
+}
+.tthe{
+    margin-left: 230px!important;
+    margin-top: -110px!important;
+    font-size: 13px!important;
+    letter-spacing: 2px!important;
+    width: 500px!important;
+    height: 100px!important;
+}
+.smtt{
+    margin-left: 500px!important;
+    font-size: 20px!important;
+}
+.smttt{
+    margin-left: 460px!important;
+    font-size: 11px!important;
+    width: 280px!important;
+
+}
+.xxt{
+    width: 400px!important;
+    height: 300px!important;
+}
+.smt{
+    font-size: 20px!important;
+    width: 300px!important;
+    margin-top: -300px!important;
+    margin-left: 450px!important;
+}
+}
+
+
+
+@media screen and (min-device-width:425px ) 
+    and (max-device-width: 575px) {
+    .bar {
+        width: 575px !important;
+        height: 90px!important;
+        
+    }
+    .main {
+        width: 575px!important;
+        height: 800px!important;
+        margin: auto;
+       
+    }
+    .video-slide{
+      width: 575px!important;
+      margin-top: -80px!important;
+      margin-top: -180px!important;
+  } 
+  .racing{
+    margin-left: -40px!important;
+    font-size: 9px!important;
+  }
+  .sportscar{
+    margin-left: -10px!important;
+    
+  }
+  
+  .collections{
+    margin-left: -50px!important;
+    font-size: 9px!important;
+    margin-top: 35px!important;
+  
+  }
+  .experence{
+    margin-left: 280px!important;
+    font-size: 9px!important;
+    margin-top: -25px!important;
+  
+  
+  }
+  .aboutus{
+    margin-left: 370px!important;
+    font-size: 9px!important;
+  
+  margin-top: -25px!important;
+  
+  }
+  .maintwo{
+    width: 575px!important;
+    margin-top: 900px!important;
+}
+.cftd{
+    width: 575px!important;
+}
+.mainthree{
+    width:575px!important;
+}
+.mainfour{
+    width:575px!important;
+    height: 300px!important;
+}
+.xtt{
+    width:575px!important;
+    height: 500px!important;
+}
+.mainsix{
+    width:575px!important;
+    margin-top: 160px!important;
+}
+.be{
+    margin-top: -200px!important;
+    margin-left: 90px!important;
+}
+.mainseven{
+    width: 575px!important;
+    margin-top: 110px!important;
+}
+.xttt{
+  
+   width: 800px!important;
+   margin-left: -100px!important;
+   height: 500px!important;
+}
+.maineight{
+    width: 575px!important;
+    margin-top:200px!important;
+}
+.mainnine{
+    width: 575px!important;
+    height: 400px!important;
+}
+.mainninee{
+    width: 575px!important;
+}
+.sf{
+    margin-left: 70px!important;
+    font-size: 35px!important;
+}
+.sff{
+    margin-left: 60px!important;
+    font-size: 25px!important;
+}
+.sfff{
+    margin-left: 30px!important;
+    font-size: 25px!important;
+}
+.s{
+    margin-left: 100px!important;
+    font-size: 10px!important;
+    width: 400px!important;
+    
+}
+.button{
+    margin-left: 600px!important;
+    width: 150px!important;
+    display: none;
+}
+.tthe{
+    margin-left: 230px!important;
+    margin-top: -110px!important;
+    font-size: 13px!important;
+    letter-spacing: 2px!important;
+    width: 330px!important;
+    height: 100px!important;
+}
+.kww{
+    margin-left: -260px!important;
+}
+.smtt{
+    margin-left: 340px!important;
+    font-size: 11px!important;
+}
+.smttt{
+    margin-left: 320px!important;
+    font-size: 6px!important;
+    width: 240px!important;
+
+}
+.xxt{
+    width: 300px!important;
+    height: 200px!important;
+    margin-left: 10px!important;
+}
+.smt{
+    font-size: 15px!important;
+    width: 300px!important;
+    margin-top: -200px!important;
+    margin-left: 290px!important;
+}
+
+}
+@media screen and (min-device-width: 375px) 
+    and (max-device-width: 425px) {
+    .bar {
+        width: 425px!important;
+        height: 90px!important;
+        
+    }
+    .main {
+        width: 425px!important;
+        height: 800px!important;
+        margin: auto;
+       
+        
+    }
+    .video-slide{
+      width: 425px!important;
+      margin-top: -80px!important;
+      margin-top: -220px!important;
+  } 
+  .racing{
+    margin-left: -40px!important;
+    font-size: 6px!important;
+  }
+  .sportscar{
+    margin-left: -20px!important;
+    
+  }
+  
+  .collections{
+    margin-left: -65px!important;
+    font-size: 6px!important;
+    margin-top: 39px!important;
+  
+  }
+  .experence{
+    margin-left: 290px!important;
+    font-size: 6px!important;
+    margin-top: -31px!important;
+  
+  
+  }
+  .aboutus{
+    margin-left: 360px!important;
+    font-size: 6px!important;
+  
+  margin-top: -31px!important;
+  
+  }
+  .maintwo{
+    width: 425px!important;
+    margin-top: 900px!important;
+}
+.cftd{
+    width: 425px!important;
+}
+.mainthree{
+    width:575px!important;
+}
+.mainfour{
+    width:425px!important;
+    height: 300px!important;
+}
+.xtt{
+    width:425px!important;
+    height: 500px!important;
+}
+.mainsix{
+    width:425px!important;
+    margin-top: 160px!important;
+}
+.be{
+    margin-top: -200px!important;
+    margin-left: 50px!important;
+    font-size: 25px!important;
+}
+.mainseven{
+    width: 425px!important;
+    margin-top: 110px!important;
+}
+.xttt{
+  
+   width: 630px!important;
+   margin-left: -100px!important;
+   height: 400px!important;
+}
+.maineight{
+    width: 425px!important;
+    margin-top:100px!important;
+}
+.mainnine{
+    width: 425px!important;
+    height: 400px!important;
+}
+.mainninee{
+    width: 425px!important;
+}
+.sf{
+    margin-left: 50px!important;
+    font-size: 25px!important;
+}
+.sff{
+    margin-left: 60px!important;
+    font-size: 15px!important;
+}
+.sfff{
+    margin-left: 50px!important;
+    font-size: 15px!important;
+}
+.s{
+    margin-left: 80px!important;
+    font-size: 10px!important;
+    width: 300px!important;
+    
+}
+.b{
+    font-size: 15px!important;
+    margin-left: 10px!important;
+}
+.c,.f,.e{
+    font-size: 6px!important;
+    margin-left: 10px!important;
+}
+.bb{
+    margin-left: 250px!important;
+    font-size: 15px!important;
+    margin-top: -28px!important;
+}
+.k,.m{
+    font-size: 6px!important;
+    margin-left: 250px!important;
+}
+.g{
+    margin-top: -70px!important;
+    font-size: 6px!important;
+    margin-left: 250px!important;
+}
+.button{
+    margin-left: 600px!important;
+    width: 150px!important;
+    display: none;
+}
+.tthe{
+    margin-left: 230px!important;
+    margin-top: -110px!important;
+    font-size: 13px!important;
+    letter-spacing: 2px!important;
+    width: 330px!important;
+    height: 100px!important;
+    display: none;
+}
+.kww,.edr{
+    margin-left: -260px!important;
+    display: none;
+}
+.smtt{
+    margin-left: 240px!important;
+    font-size: 11px!important;
+}
+.smttt{
+    margin-left: 230px!important;
+    font-size: 6px!important;
+    width: 180px!important;
+
+}
+.xxt{
+    width: 200px!important;
+    height: 150px!important;
+    margin-left: 10px!important;
+}
+.smt{
+    font-size: 10px!important;
+    width: 300px!important;
+    margin-top: -150px!important;
+    margin-left: 170px!important;
+}
+}

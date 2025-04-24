@@ -1,0 +1,956 @@
+.main{
+  width: 1244px;
+  height: 700px;
+  background-color: black;
+  margin: auto;
+}
+.racingg{
+  color: white;
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 65px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+  
+}
+.racing:link {
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+
+.racing:visited {
+color: rgb(246, 250, 246);
+}
+
+.racing:hover {
+color: rgb(255, 255, 255);
+}
+
+.racing:active {
+color: rgb(255, 255, 255);
+}
+.bar{
+  width: 1244px;
+  height: 90px;
+  background-color: transparent;
+  opacity: 75%;
+  margin-top: 0px;
+}
+.img{
+  margin-left: 32px;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.sportscar{
+  color: white;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 138px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+.collections{
+  color: white;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 118px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+.experence{
+  color: white;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 116px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+.aboutus{
+  color: white;
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 116px;
+  height: 25px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+}
+.imgone{
+  width: 1244px;
+  height: 700px;
+  overflow: hidden;
+}
+.i{
+  width: 1244px;
+  height: 700px;
+  animation: fade-down 0.5s;
+   opacity: 1;
+}
+.tone{
+  width: 800px;
+  height: 70px;
+  margin-left: 222px;
+  margin-top: 100px;
+}
+.an{
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  animation: fade-down 0.5s;
+   opacity: 1;
+
+
+}
+.exh{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  animation: fade-up 0.5s;
+  opacity: 1;
+
+
+}
+.ttwo{
+  width: 755px;
+  height: 78px;
+  margin-left: 222px;
+  margin-top: 40px;
+  opacity: 70%;
+}
+.pone,.ptwo,.pthree,.pfour,.pfive,.psix,.pseven{
+  margin-left: 222px;
+}
+.these{
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+  animation: fade-up 0.5s;
+  opacity: 1;
+}
+.inc{
+  font-size: 38px;
+  letter-spacing: 2px; 
+  color: white;
+       font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.ina{
+  font-size: 13.5px;
+  letter-spacing: 0px; 
+  color: white;
+       font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.des{
+  font-size: 15px;
+  letter-spacing: 0px; 
+  color: rgb(0, 0, 0);
+       font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+  animation: fade-up 0.5s;
+ opacity: 1;
+}
+.dess{
+  width: 800px;
+  height: 103px;
+  margin-top: 250px;
+  margin-left: 260px;
+  opacity: 1;
+}
+@keyframes fade-down{
+  0%{
+      opacity: 0;
+      transform: translateY(-30px)scale(0.9);
+      
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px)scale(1);
+      
+  }
+}
+@keyframes fade-up{
+  0%{
+      opacity: 0;
+      transform: translateY(30px)scale(0.9);
+      filter: blur(10px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px)scale(1);
+      filter: blur(0px);
+      
+  }
+  
+}
+.video{
+  width: 1116px;
+  height: 600px;
+  margin-top: 150px;
+  margin-left: 64px;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+.vid{
+  width: 1116px;
+  height: 600px;
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+  animation: fade-down 0.5s;
+  opacity: 1;
+ 
+}
+.dno{
+  color: black;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+  margin-top: -50px;
+  margin-left: 0px;
+  margin-top: -150px;
+  margin-left: 70px;
+  text-shadow: rgba(62,66,66,0.4) 0px 10px 24px;
+  
+}
+.dnt{
+  color: black;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+  margin-top: -50px;
+  margin-left: 0px;
+  margin-top: -45px;
+  margin-left: 451px;
+  text-shadow: rgba(62,66,66,0.4) 0px 10px 24px;
+}
+.dnth{
+  color: black;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+  margin-top: -50px;
+  margin-left: 0px;
+  margin-top: -30px;
+  margin-left: 831px;
+  text-shadow: rgba(62,66,66,0.4) 0px 10px 24px;
+}
+.mainn{
+  width: 1244px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+.nnew{
+  background: #959595;
+background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow: rgba(62,66,66,0.34) 6px 10px 16px;
+  font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-style: bold;
+
+  font-size: 30px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 2px;
+  margin-top: -400px;
+  margin-left: 485px;
+}
+.divon{
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+.divtw{
+  width: 350px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.divth{
+  width: 350px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.divimgone{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+transition: transform .2s;
+animation: fade-down 0.5s;
+  opacity: 1;
+}
+.divimgone:hover{
+  transform: scale(1.1); 
+  opacity: 1;
+}
+.mainnine{
+  width: 1244px;
+  height: 318px;
+  background-color: rgba(253, 253, 253, 0);
+  margin-top: 0px;
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#000000;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.mainninee{
+  width: 1244px;
+  height: 500px;
+  background-color: black;
+  margin-top: 500px;
+}
+@keyframes fade-down{
+  0%{
+      opacity: 0;
+      transform: translateY(-30px)scale(0.9);
+      
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px)scale(1);
+      
+  }
+}
+@keyframes fade-up{
+  0%{
+      opacity: 0;
+      transform: translateY(30px)scale(0.9);
+      filter: blur(10px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px)scale(1);
+      filter: blur(0px);
+      
+  }
+  
+}
+.mainninee{
+  width: 1244px;
+ height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-device-width: 1199px) {
+
+
+  .bar {
+      width: 1199px!important;
+   
+     
+  }
+  .main {
+      width: 1199px!important;
+     
+   
+  }
+  .i{
+      width: 1199px !important;
+  }
+  .mainn{
+      width: 1199px !important;
+  }
+  .nnew{
+      margin-left: 460px !important;
+  }
+  .mainnine{
+      width: 1199px !important;
+  }
+  .mainninee{
+      width: 1199px !important;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-device-width: 991px) {
+
+
+  .bar {
+      width: 991px!important;
+   
+     
+  }
+  .main {
+      width: 991px!important;
+     height: 590px !important;
+   
+  }
+  .mainn{
+      width: 991px !important;
+  }
+  .nnew{
+      margin-left: 360px !important;
+  }
+  .i{
+      width: 991px !important;
+      height: 600px !important;
+      background-color: transparent !important;
+  }
+  .imgone{
+      width: 991px !important;
+      height: 500px !important;
+      background-color: transparent !important;
+  }
+  .mainnine{
+    width: 991px !important;
+}
+.mainninee{
+    width: 991px !important;
+}
+.dno{
+  margin-left: 25px !important;
+}
+.dnt{
+  margin-left: 360px !important;
+}
+.dnth{
+  margin-left: 700px !important;
+}
+.an{
+  margin-left: 60px !important;
+  width: 800px  !important;
+}
+.pone,.ptwo,.pthree,.pfour,.pfive,.psix,.pseven,.ttwo{
+  margin-left: 120px !important;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) and (max-device-width: 767px) {
+
+
+    
+
+  .bar {
+      width: 767px!important;
+   background-color: transparent !important;
+     
+  }
+  .main {
+      width: 767px!important;
+      height: 590px !important;
+     
+   
+  }
+  .mainn{
+      width: 767px !important;
+  }
+  .nnew{
+      margin-left: 260px !important;
+      
+    }
+  .ii{
+      width: 767px !important;
+  height: 500px !important;
+
+  }
+  .imgone{
+    width: 767px !important;
+    height: 500px !important;
+    background-color: transparent !important;
+}
+.mainnine{
+  width: 767px !important;
+}
+.mainninee{
+  width: 767px !important;
+}
+  .dno{
+    margin-left: 15px !important;
+    font-size: 10px !important;
+  }
+  .dnt{
+    margin-left: 280px !important;
+    font-size: 10px !important;
+  }
+  .dnth{
+    margin-left: 550px !important;
+    font-size: 10px !important;
+  }
+  .an{
+    margin-left: 20px !important;
+    width: 750px  !important;
+    font-size: 25px !important;
+  }
+  .pone,.ptwo,.pthree,.pfour,.pfive,.psix,.pseven,.ttwo{
+    margin-left: 40px !important;
+    width: 700px !important;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-device-width:425px ) 
+and (max-device-width: 575px) {
+
+
+
+    .bar {
+        width: 575px!important;
+
+    }
+    
+
+.feriri{
+margin-left: -10px!important;
+}
+    .racing{
+        margin-left: -50px!important;
+        font-size: 9px!important;
+      }
+      .sportscar{
+        margin-left: 0px!important;
+        
+      }
+      
+      .collections{
+        margin-left: -25px!important;
+        font-size: 9px!important;
+        margin-top: 33px!important;
+      
+      }
+      .experence{
+        margin-left: 340px!important;
+        font-size: 9px!important;
+        margin-top: -25px!important;
+      
+      
+      }
+      .aboutus{
+        margin-left: 530px!important;
+        font-size: 9px!important;
+      
+      margin-top: -37px!important;
+      
+      }
+      
+
+    .main {
+        width: 575px!important;
+        height: 490px !important;
+       
+     
+    }
+    .mainn{
+      width: 575px !important;
+  }
+  .nnew{
+      margin-left: 180px !important;
+      margin-top: -250px !important;
+      font-size: 25px !important;
+    }
+    .i{
+      width: 575px !important;
+      height: 400px !important;
+      background-color: transparent !important;
+  }
+  .imgone{
+      width: 575px !important;
+      height: 400px !important;
+      background-color: transparent !important;
+  }
+  .mainnine{
+    width: 575px !important;
+}
+.mainninee{
+    width: 575px !important;
+}
+.dno{
+  margin-left: 25px !important;
+  font-size: 6px !important;
+  margin-top: -230px !important;
+}
+.dnt{
+  margin-left: 220px !important;
+  font-size: 6px !important;
+  margin-top: -24px !important;
+
+}
+.dnth{
+  margin-left: 420px !important;
+  font-size: 6px !important;
+  margin-top: -24px !important;
+
+}
+.an{
+  margin-left: 10px !important;
+  width: 570px  !important;
+  font-size: 20px !important;
+  margin-top: 150px !important;
+}
+.pone,.ptwo,.pthree,.pfour,.pfive,.psix,.pseven,.ttwo{
+  margin-left: 20px !important;
+}
+.exh{
+  width: 450px!important;
+}
+.pone{
+  margin-top: 30px !important;
+}
+.divimgone{
+  width: 225px !important;
+  height: 140px !important;
+  width: 450px !important;
+}
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (min-device-width: 375px) 
+and (max-device-width: 425px) {
+
+
+
+
+
+    .bar {
+        width:425px!important;
+     
+       
+    }
+    
+
+.feriri{
+margin-left: -10px!important;
+}
+.racing{
+margin-left: -40px!important;
+font-size: 6px!important;
+}
+.sportscar{
+margin-left: -20px!important;
+
+}
+
+.collections{
+margin-left: -65px!important;
+font-size: 6px!important;
+margin-top: 39px!important;
+
+}
+.experence{
+margin-left: 315px!important;
+font-size: 6px!important;
+margin-top: -31px!important;
+
+
+}
+.aboutus{
+margin-left: 380px!important;
+font-size: 6px!important;
+
+margin-top: -31px!important;
+
+}
+
+    .main {
+        width:425px!important;
+        height: 390px !important;
+     
+    }
+    .mainn{
+        width: 425px !important;
+       
+    }
+    .nnew{
+        margin-left: 120px !important;
+       margin-top: -300px !important;
+        font-size: 22px !important;
+      }
+
+
+      .nnew{
+        margin-left: 100px !important;
+        margin-top: -250px !important;
+        font-size: 25px !important;
+      }
+      .i{
+        width: 425px !important;
+        height: 300px !important;
+        background-color: transparent !important;
+    }
+    .imgone{
+        width: 425px !important;
+        height: 300px !important;
+        background-color: transparent !important;
+    }
+    .mainnine{
+      width: 425px !important;
+  }
+  .mainninee{
+      width: 425px !important;
+  }
+  .dno{
+    margin-left: 25px !important;
+    font-size: 6px !important;
+    margin-top: -230px !important;
+  }
+  .dnt{
+    margin-left: 220px !important;
+    font-size: 6px !important;
+    margin-top: -24px !important;
+  
+  }
+  .dnth{
+    margin-left: 420px !important;
+    font-size: 6px !important;
+    margin-top: -24px !important;
+  
+  }
+  .an{
+    margin-left: 10px !important;
+    width: 400px  !important;
+    font-size: 20px !important;
+    margin-top: 150px !important;
+  }
+  .pone,.ptwo,.pthree,.pfour,.pfive,.psix,.pseven,.ttwo{
+    margin-left: 20px !important;
+  }
+  .exh{
+    width: 400px!important;
+  }
+  .pone{
+    margin-top: 30px !important;
+  }
+
+  .dno{
+    margin-left: 12px !important;
+    font-size: 4px !important;
+    margin-top: -230px !important;
+  }
+  
+  .dnt{
+    margin-left: 150px !important;
+    font-size: 4px !important;
+    margin-top: -17px !important;
+  }
+  .dnth{
+    margin-left: 314px !important;
+    font-size: 4px !important;
+    margin-top: -19px !important;
+  }
+  .divimgone{
+    width: 225px !important;
+    height: 140px !important;
+  }
+    }
